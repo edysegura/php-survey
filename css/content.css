@@ -80,3 +80,20 @@ div#login input.btn-ok {
 	width:100px; 
 	margin-left:0px;
 }
+
+div#erro { height:381px; }
+div#erro p.msg { 
+	margin-top:50px;
+	text-align:center;
+	font-weight:bold;
+}
+div#erro p { 
+	text-align:center;
+}
+div#erro p.voltar { 
+	margin-top:5px;
+}
+
+div#erro p.voltar  a { 
+	color:blue;
+}

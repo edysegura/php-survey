@@ -30,7 +30,7 @@ div#global {
 /* fim */
 
 label {
-	width:100px;
+	width:200px;
 	text-align:right;
 	float:left;
 	padding-right:3px;
@@ -38,7 +38,7 @@ label {
 }
 
 span { 
-	margin-left:103px;
+	margin-left:203px;
 	font-size:10px;
 	font-weight:normal;
 }

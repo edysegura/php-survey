@@ -22,12 +22,16 @@ div#content h2 {
 }
 
 div#informacoes input, textarea, div.indicacao input, div.botoes input {
-	border:1px solid #666;
+	border:1px solid #999;
 	font-weight:normal;
 }
 
 div#informacoes input {
-	width:250px;
+	width:400px;
+}
+
+textarea {
+	width:660px;
 }
 
 /* botao confirmar */
