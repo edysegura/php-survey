@@ -21,5 +21,6 @@ else {
   $baseUrl .= str_replace('\\', '/', dirname(dirname( isset($_SERVER['SCRIPT_NAME']) ? $_SERVER['SCRIPT_NAME'] : getenv('SCRIPT_NAME'))));
 }
 
+//debug
 //echo $baseDir, "<br /> ", $baseUrl; exit;
 ?>

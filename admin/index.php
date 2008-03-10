@@ -1,4 +1,7 @@
-<?php include "../includes/contextpath.inc.php"; ?>
+<?php 
+	include "../includes/contextpath.inc.php";
+	include $baseDir . "/actions/authentication.action.php";
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
 <head>
@@ -26,16 +29,17 @@
 <h1 id="title-admin">Acesso Administrativo</h1>
 
 <!-- formulário -->
-<form id="pesquisa" method="post" action="relatorio-geral.html">
+<form id="pesquisa" method="post" action="">
 	
 	<div id="form-content">
 		<!-- login -->
 		<div id="login">
 			<fieldset>
 				<legend>Login</legend>
+				<?php echo $authenticationFail; ?>
 				<p>
 					<label for="usuario">Usuário</label><br />
-					<input type="text" name="usuario" id="usuario" maxlength="100" />
+					<input type="text" name="usuario" id="usuario" value="<?php echo $_POST["usuario"]; ?>" maxlength="30" />
 				</p>
 				<p>
 					<label for="senha">Senha</label><br />
