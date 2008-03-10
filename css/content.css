@@ -75,6 +75,9 @@ div#login legend {
 	margin:0 0 0 5px;
 	font-weight:bold;
 }
+div#login label { 
+	width:auto;
+}
 div#login input.btn-ok { 
 	border:1px solid #A7A6AA;
 	width:100px; 
