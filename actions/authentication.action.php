@@ -23,7 +23,7 @@ if(!empty($_POST["usuario"]) && !empty($_POST["senha"])) {
 		$authenticationFail = "<p class=\"authentication-fail\">Nome de usuário e/ou senha incorretos.</p>";
 	}
 }
-else {
+else if(sizeof($_POST)) {
 	$authenticationFail = "<p class=\"authentication-fail\">Informe todos os campos corretamente.</p>";
 }
 
