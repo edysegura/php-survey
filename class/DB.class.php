@@ -22,10 +22,10 @@ class DB {
 	                   $password = "", 
 	                   $squema   = "") {
 
-		$this->host     = empty($host)     ? "localhost" : $host;
-		$this->username = empty($username) ? "root"      : $username;
-		$this->password = empty($password) ? "root"      : $password;
-		$this->squema   = empty($squema)   ? "loboelobo" : $squema;
+		$this->host     = empty($host)     ? "mysql.loboelobo.com.br" : $host;
+		$this->username = empty($username) ? "loboelobo"              : $username;
+		$this->password = empty($password) ? "l0b0l0b0"               : $password;
+		$this->squema   = empty($squema)   ? "pesquisa"               : $squema;
 	}
 
 

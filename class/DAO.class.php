@@ -15,7 +15,7 @@ abstract class DAO {
 	}
 
 	public function getDB() {
-		$DB = new DB();
+		$DB = new DB("localhost", "root", "root", "loboelobo");
 		$DB->connect();
 		$this->setDB($DB);
 		return $this->DB;
