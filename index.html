@@ -6,6 +6,9 @@
 <meta name="reply-to" content="lidy@lidy.com.br" />
 <title>Transportadora LOBO e LOBO - Pesquisa de Satisfação dos Clientes</title>
 
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/index.css" type="text/css" title="Lobo e Lobo" />
+
 </head>
 <body id="index">
 <!-- global -->
@@ -19,16 +22,16 @@
 <!-- content -->
 <div id="content">
 
-<p>A Transportadora LOBO e LOBO Ltda., buscando manter uma avaliação constante e eficaz, 
+<p class="informativo"><strong>A Transportadora LOBO e LOBO Ltda.</strong>, buscando manter uma avaliação constante e eficaz, 
 adequado as necessidades de nossos clientes, disponibiliza a "Pesquisa de Satisfação de Clientes", 
 o qual solicitamos sua melhor atenção no preenchimento. Todas as questões serão por nós analisadas e classificadas, e, 
-para pontos que considerarmos não satisfatórios, serão buscadas soluções corretivas. Agradecemos a sua participação!</p>
+para pontos que considerarmos não satisfatórios, serão buscadas soluções corretivas.</p>
+<p class="informativo"><strong>Agradecemos a sua participação!</strong></p>
 
 <!-- formulário -->
 <form id="pesquisa" method="post" action="paginas/confirmacao.html">
 	
 	<div id="form-content">
-
 		<!-- primeiras informações -->
 		<div id="informacoes">
 			<h2>Identificação do Participante:</h2>
@@ -46,9 +49,10 @@ para pontos que considerarmos não satisfatórios, serão buscadas soluções correti
 			</p>
 			<p>
 				<label for="email">E-mail:</label>
-				<input type="text" name="email" id="email" maxlength="100" />
-				<span>Campo requerido</span>
+				<input type="text" name="email" id="email" maxlength="100" /><br />
+				<span>(campo requerido)</span>
 			</p>
+		</div>
 		<!-- fim div#informacoes -->
 		
 		<!-- tabela sobre os serviços da lobo e lobo -->
@@ -74,43 +78,43 @@ para pontos que considerarmos não satisfatórios, serão buscadas soluções correti
 				</thead>
 				<tbody>
 					<tr class="alternada">
-						<td>Pronto atendimento</td>
-						<td><input name="pesquisa1-item1" value="1" type="radio" /></td>
-						<td><input name="pesquisa1-item1" value="2" type="radio" /></td>
-						<td><input name="pesquisa1-item1" value="3" type="radio" /></td>
-						<td><input name="pesquisa1-item1" value="4" type="radio" /></td>
+						<td class="questao">Pronto atendimento</td>
+						<td><input name="pesquisa1-item1" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item1" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item1" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item1" value="4" type="radio" class="radio" /></td>
 					</tr>
 					
 					<tr>
-						<td>Comportamento e receptividade</td>
-						<td><input name="pesquisa1-item2" value="1" type="radio" /></td>
-						<td><input name="pesquisa1-item2" value="2" type="radio" /></td>
-						<td><input name="pesquisa1-item2" value="3" type="radio" /></td>
-						<td><input name="pesquisa1-item2" value="4" type="radio" /></td>
+						<td class="questao">Comportamento e receptividade</td>
+						<td><input name="pesquisa1-item2" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item2" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item2" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item2" value="4" type="radio" class="radio" /></td>
 					</tr>
 					
 					<tr class="alternada">
-						<td>Prontidão e exatidão na transferência das ligações</td>
-						<td><input name="pesquisa1-item3" value="1" type="radio" /></td>
-						<td><input name="pesquisa1-item3" value="2" type="radio" /></td>
-						<td><input name="pesquisa1-item3" value="3" type="radio" /></td>
-						<td><input name="pesquisa1-item3" value="4" type="radio" /></td>
+						<td class="questao">Prontidão e exatidão na transferência das ligações</td>
+						<td><input name="pesquisa1-item3" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item3" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item3" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item3" value="4" type="radio" class="radio" /></td>
 					</tr>
 					
 					<tr>
-						<td>Eficiência / solução imediata de problemas</td>
-						<td><input name="pesquisa1-item4" value="1" type="radio" /></td>
-						<td><input name="pesquisa1-item4" value="2" type="radio" /></td>
-						<td><input name="pesquisa1-item4" value="3" type="radio" /></td>
-						<td><input name="pesquisa1-item4" value="4" type="radio" /></td>
+						<td class="questao">Eficiência / solução imediata de problemas</td>
+						<td><input name="pesquisa1-item4" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item4" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item4" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item4" value="4" type="radio" class="radio" /></td>
 					</tr>
 					
 					<tr class="alternada">
-						<td>Precisão e confiabilidade nas informações prestadas</td>
-						<td><input name="pesquisa1-item5" value="1" type="radio" /></td>
-						<td><input name="pesquisa1-item5" value="2" type="radio" /></td>
-						<td><input name="pesquisa1-item5" value="3" type="radio" /></td>
-						<td><input name="pesquisa1-item5" value="4" type="radio" /></td>
+						<td class="questao">Precisão e confiabilidade nas informações prestadas</td>
+						<td><input name="pesquisa1-item5" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item5" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item5" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa1-item5" value="4" type="radio" class="radio" /></td>
 					</tr>
 					
 				</tbody>
@@ -142,51 +146,51 @@ para pontos que considerarmos não satisfatórios, serão buscadas soluções correti
 				
 				<tbody>
 					<tr class="alternada">
-						<td>Pronto atendimento na solicitação de coletas</td>
-						<td><input name="pesquisa2-item6" value="1" type="radio" /></td>
-						<td><input name="pesquisa2-item6" value="2" type="radio" /></td>
-						<td><input name="pesquisa2-item6" value="3" type="radio" /></td>
-						<td><input name="pesquisa2-item6" value="4" type="radio" /></td>	
+						<td class="questao">Pronto atendimento na solicitação de coletas</td>
+						<td><input name="pesquisa2-item6" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item6" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item6" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item6" value="4" type="radio" class="radio" /></td>	
 					</tr>
 					
 					<tr>
-						<td>Cuidados / eficiência no manuseio da carga</td>
-						<td><input name="pesquisa2-item7" value="1" type="radio" /></td>
-						<td><input name="pesquisa2-item7" value="2" type="radio" /></td>
-						<td><input name="pesquisa2-item7" value="3" type="radio" /></td>
-						<td><input name="pesquisa2-item7" value="4" type="radio" /></td>
+						<td class="questao">Cuidados / eficiência no manuseio da carga</td>
+						<td><input name="pesquisa2-item7" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item7" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item7" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item7" value="4" type="radio" class="radio" /></td>
 					</tr>
 					
 					<tr class="alternada">
-						<td>Estado de conservação dos veículos</td>
-						<td><input name="pesquisa2-item8" value="1" type="radio" /></td>
-						<td><input name="pesquisa2-item8" value="2" type="radio" /></td>
-						<td><input name="pesquisa2-item8" value="3" type="radio" /></td>
-						<td><input name="pesquisa2-item8" value="4" type="radio" /></td>
+						<td class="questao">Estado de conservação dos veículos</td>
+						<td><input name="pesquisa2-item8" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item8" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item8" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item8" value="4" type="radio" class="radio" /></td>
 					</tr>
 					
 					<tr>
-						<td>Apresentação dos funcionários</td>
-						<td><input name="pesquisa2-item9" value="1" type="radio" /></td>
-						<td><input name="pesquisa2-item9" value="2" type="radio" /></td>
-						<td><input name="pesquisa2-item9" value="3" type="radio" /></td>
-						<td><input name="pesquisa2-item9" value="4" type="radio" /></td>
+						<td class="questao">Apresentação dos funcionários</td>
+						<td><input name="pesquisa2-item9" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item9" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item9" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item9" value="4" type="radio" class="radio" /></td>
 					</tr>
 					
 					<tr class="alternada">
-						<td>Eficiência / solução imediata de problemas</td>
-						<td><input name="pesquisa2-item10" value="1" type="radio" /></td>
-						<td><input name="pesquisa2-item10" value="2" type="radio" /></td>
-						<td><input name="pesquisa2-item10" value="3" type="radio" /></td>
-						<td><input name="pesquisa2-item10" value="4" type="radio" /></td>
+						<td class="questao">Eficiência / solução imediata de problemas</td>
+						<td><input name="pesquisa2-item10" value="1" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item10" value="2" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item10" value="3" type="radio" class="radio" /></td>
+						<td><input name="pesquisa2-item10" value="4" type="radio" class="radio" /></td>
 					</tr>
 					
 					<tr>
-						<td>Satisfação nos serviços prestados</td>
-						<td><input name="avaliacao6" value="0" type="radio" /></td>
-						<td><input name="avaliacao6" value="0" type="radio" /></td>
-						<td><input name="avaliacao6" value="0" type="radio" /></td>
-						<td><input name="avaliacao6" value="0" type="radio" /></td>
+						<td class="questao">Satisfação nos serviços prestados</td>
+						<td><input name="avaliacao6" value="0" type="radio" class="radio" /></td>
+						<td><input name="avaliacao6" value="0" type="radio" class="radio" /></td>
+						<td><input name="avaliacao6" value="0" type="radio" class="radio" /></td>
+						<td><input name="avaliacao6" value="0" type="radio" class="radio" /></td>
 					</tr>
 					
 				</tbody>
@@ -197,7 +201,7 @@ para pontos que considerarmos não satisfatórios, serão buscadas soluções correti
 		<!-- comentarios gerais -->
 		<div id="comentarios">
 			<h2>Comentários / Reclamações e Sugestões adicionais</h2>
-			<textarea name="comentarios" cols="43" rows="5">
+			<textarea name="comentarios" cols="50" rows="5">
 			</textarea>
 		</div>
 		
@@ -212,11 +216,14 @@ para pontos que considerarmos não satisfatórios, serão buscadas soluções correti
 	<!-- final da div#content -->
 </div>
 
-<!-- footer -->
-<div id="footer">
-</div>
-
 <!-- fim div#global -->
 </div>
+
+<!-- footer -->
+<div id="footer">
+	<p>Copyright © 2008 Transportadora Lobo e Lobo</p>
+	<a href="admin/index.html">Admin</a>
+</div>
+
 </body>
 </html>

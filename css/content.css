@@ -1,0 +1,82 @@
+/**
+ *
+ * Definicoes para o conteudo
+ * @author: WebEngineers - comercial@webengineers.com.br
+ *
+ */
+
+div#content h2 {
+	padding:2px 0 2px 2px;
+	margin:0 0 5px 0;
+}
+
+/* margem no formulario */
+div#form-content {
+	margin:4px 4px 0 4px;
+}
+
+div#content p {
+	text-align:justify;
+}
+
+div#content p.informativo  {
+	margin:7px 7px 10px 7px;
+	font-weight:normal;
+}
+
+div#informacoes {
+	margin-top:20px;
+}
+
+div#informacoes input, textarea, div.indicacao input, div.botoes input {
+	margin:1px;
+	padding:1px;
+}
+
+/* div inforamções, comentários */
+div#informacoes, div#comentarios {
+	margin-bottom:20px;
+}
+
+h1#title-admin {
+	font-size:16px;
+	text-align:center;
+	margin:10px 0 10px 0;
+}
+
+div#footer {
+	margin:0pt auto;
+	width:62%;
+}
+div#footer p,
+div#footer a {
+	font-size:10px;
+}
+
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* login */
+
+div#login { height:200px; }
+div#login p { margin-bottom:20px; }
+div#login input { 
+	margin-left:50px; 
+	width:200px;
+	padding:2px;
+}
+div#login fieldset { 
+	border:1px solid #A7A6AA;
+	margin:0 auto;
+	width:300px;
+	margin-top:30px;
+}
+div#login legend { 
+	margin:0 0 0 5px;
+	font-weight:bold;
+}
+div#login input.btn-ok { 
+	border:1px solid #A7A6AA;
+	width:100px; 
+	margin-left:0px;
+}

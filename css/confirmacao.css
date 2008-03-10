@@ -1,0 +1,30 @@
+/**
+ *
+ * Definicoes para confirmacao da pesquisa
+ * @author: WebEngineers - comercial@webengineers.com.br
+ *
+ */
+
+div#confimacao p {
+	margin-bottom:5px;
+	text-align:center;
+	font-size:13px;
+	font-weight:bold;
+}
+
+div#confimacao p.nome {
+	margin-top:50px;	
+}
+
+div#confimacao p.img {
+	margin:0 auto !important;
+}
+
+div#confimacao img {
+	/*margin:1% 0 5% 36%;*/
+	margin:10px auto !important;
+	text-align:center;
+	width:200px;
+	height:266px;	
+	background:url(../images/bg-logo-fiorde2.png);
+}

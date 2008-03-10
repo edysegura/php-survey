@@ -1,0 +1,19 @@
+/**
+ *
+ * Definicoes para index.html
+ * @author: WebEngineers - comercial@webengineers.com.br
+ *
+ */
+
+
+/* imports */
+@import url(reset.css);
+@import url(header.css);
+@import url(content.css);
+@import url(cores.css);
+@import url(table.css);
+@import url(confirmacao.css);
+
+html {
+	background:url(../imagens/bg-content.jpg) repeat-x;
+}

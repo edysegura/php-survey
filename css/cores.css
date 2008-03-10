@@ -1,0 +1,44 @@
+/**
+ *
+ * Definicoes para as cores
+ * @author: WebEngineers - comercial@webengineers.com.br
+ *
+ */
+
+div#global {
+	background:#FFF;
+	border-left:1px solid #AC2220;
+	border-right:1px solid #AC2220;
+	border-bottom:1px solid #AC2220;
+}
+
+/* titulo com as perguntas */
+div#content h2 {
+	color:#555;
+	background:#dadada;
+	border:1px solid #ccc;
+	border-left:4px solid #ccc;
+	background:url(../imagens/bg-botao.jpg) repeat-x;
+}
+
+div#informacoes input, textarea, div.indicacao input, div.botoes input {
+	border:1px solid #666;
+	font-weight:normal;
+}
+
+div#informacoes input {
+	width:250px;
+}
+
+/* botao confirmar */
+div.botoes input {
+	background:url(../imagens/bg-botao.jpg) repeat-x !important;
+	height:20px;
+	margin-bottom:10px;
+}
+
+div.botoes input:hover {
+	background:#ccc;
+}
+
+input.radio { border:none !important; }

@@ -1,0 +1,16 @@
+/* CSS Document 
+Autor: Lidiane - lidy@lidy.com.br
+Descrição: Definição para o header
+*/
+
+div#header {
+	height:172px;
+	background:url(../imagens/bg-header.jpg) top no-repeat;
+}
+
+div#header h1 {
+	float:left;
+	color:#2F2170;
+	margin:5px 5px 0 0;
+	display:none;
+}
