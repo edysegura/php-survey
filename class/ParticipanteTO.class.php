@@ -13,6 +13,7 @@ class ParticipanteTO {
 	private $telefone;
 	private $empresa;
 	private $email;
+	private $comentario;
 	
 	
 	public function setId($id) {
@@ -49,6 +50,13 @@ class ParticipanteTO {
 	}
 	public function getEmail() {
 		return $this->email;
+	}
+	
+	public function setComentario($comentario) {
+		$this->comentario = $comentario;
+	}
+	public function getComentario() {
+		return $this->comentario;
 	}
 };
 ?>

@@ -12,7 +12,6 @@ class ParticipanteAvaliacaoTO {
 	private $participanteId;
 	private $itemPesquisaId;
 	private $avaliacaoId;
-	private $comentario;
 	
 	
 	public function setId($id) {
@@ -44,11 +43,5 @@ class ParticipanteAvaliacaoTO {
 		return $this->avaliacaoId;
 	}
 	
-	public function setComentario($comentario) {
-		$this->comentario = $comentario;
-	}
-	public function getComentario() {
-		return $this->comentario;
-	}
 };
 ?>
