@@ -185,8 +185,11 @@
 					
 				</tbody>
 			</table>
+
 		</div>
 		<!-- fim da tabela avaliacao -->
+		
+		<p class="link"><a href="../index.html">Voltar</a></p>
 		
 		<!-- fim div#form-content -->
 	</div>
