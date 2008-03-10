@@ -30,10 +30,9 @@ div#global {
 /* fim */
 
 label {
-	width:200px;
 	text-align:right;
 	float:left;
-	padding-right:3px;
+	padding-left:50px;
 	font-weight:bold;
 }
 
