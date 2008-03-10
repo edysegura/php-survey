@@ -19,8 +19,7 @@ if(sizeof($_POST) && !empty($_POST['email'])) {
 		header("Location: $baseUrl/paginas/confirmacao.html");
 	}
 	else {
-		echo "E-mail ja' cadastrado! Porfavor informe um novo e-mail para essa avaliacao.";
-		//header("Location: $baseUrl/?error=2");
+		header("Location: $baseUrl/paginas/erro.html");
 	}
 	
 }
