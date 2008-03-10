@@ -83,6 +83,11 @@ div#login input.btn-ok {
 	width:100px; 
 	margin-left:0px;
 }
+div#login p.authentication-fail {
+	color:red;
+	margin:5px;
+	padding-left:15px;
+}
 
 div#erro { height:381px; }
 div#erro p.msg { 
