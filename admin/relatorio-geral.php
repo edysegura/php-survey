@@ -53,43 +53,43 @@
 				</thead>
 				<tbody>
 					<tr class="alternada">
-						<td class="questao">Pronto atendimento</td>
-						<td>12</td>
-						<td>12</td>
-						<td>34</td>
-						<td>55</td>
+						<td class="questao">Pronto atendimento na solicitação de coletas</td>
+						<td><?php echo $totalVotos["item1"][1]; ?></td>
+						<td><?php echo $totalVotos["item1"][2]; ?></td>
+						<td><?php echo $totalVotos["item1"][3]; ?></td>
+						<td><?php echo $totalVotos["item1"][4]; ?></td>	
 					</tr>
-					
+		            
 					<tr>
 						<td class="questao">Comportamento e receptividade</td>
-						<td>56</td>
-						<td>77</td>
-						<td>31</td>
-						<td>0</td>
+						<td><?php echo $totalVotos["item2"][1]; ?></td>
+						<td><?php echo $totalVotos["item2"][2]; ?></td>
+						<td><?php echo $totalVotos["item2"][3]; ?></td>
+						<td><?php echo $totalVotos["item2"][4]; ?></td>	
 					</tr>
 					
 					<tr class="alternada">
 						<td class="questao">Prontidão e exatidão na transferência das ligações</td>
-						<td>12</td>
-						<td>12</td>
-						<td>34</td>
-						<td>55</td>
+						<td><?php echo $totalVotos["item3"][1]; ?></td>
+						<td><?php echo $totalVotos["item3"][2]; ?></td>
+						<td><?php echo $totalVotos["item3"][3]; ?></td>
+						<td><?php echo $totalVotos["item3"][4]; ?></td>	
 					</tr>
 					
 					<tr>
 						<td class="questao">Eficiência / solução imediata de problemas</td>
-						<td>56</td>
-						<td>77</td>
-						<td>31</td>
-						<td>0</td>
+						<td><?php echo $totalVotos["item4"][1]; ?></td>
+						<td><?php echo $totalVotos["item4"][2]; ?></td>
+						<td><?php echo $totalVotos["item4"][3]; ?></td>
+						<td><?php echo $totalVotos["item4"][4]; ?></td>	
 					</tr>
 					
 					<tr class="alternada">
 						<td class="questao">Precisão e confiabilidade nas informações prestadas</td>
-						<td>12</td>
-						<td>12</td>
-						<td>34</td>
-						<td>55</td>
+						<td><?php echo $totalVotos["item5"][1]; ?></td>
+						<td><?php echo $totalVotos["item5"][2]; ?></td>
+						<td><?php echo $totalVotos["item5"][3]; ?></td>
+						<td><?php echo $totalVotos["item5"][4]; ?></td>	
 					</tr>
 					
 					<tr class="total">
@@ -130,10 +130,10 @@
 				<tbody>
 					<tr class="alternada">
 						<td class="questao">Pronto atendimento na solicitação de coletas</td>
-						<td>12</td>
-						<td>12</td>
-						<td>34</td>
-						<td>55</td>	
+						<td><?php echo $totalVotos["item1"][1]; ?></td>
+						<td><?php echo $totalVotos["item1"][2]; ?></td>
+						<td><?php echo $totalVotos["item1"][3]; ?></td>
+						<td><?php echo $totalVotos["item1"][4]; ?></td>	
 					</tr>
 					
 					<tr>
