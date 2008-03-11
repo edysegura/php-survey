@@ -9,7 +9,6 @@ var Index = {
 	
 	init: function() {
 		Index.setInputMask();
-		Index.setForm();
 	},
 
 	
@@ -17,10 +16,10 @@ var Index = {
 		var aInputTelefone = document.getElementById('telefone');
 		
 		MaskInput(aInputTelefone, "(99)9999-9999");
-	},
+	}
 	
 	
-	setForm: function() {
+	/*setForm: function() {
 		var oForm = document.forms['pesquisa'];
 		var oEmail = document.getElementById('email');		
 
@@ -37,7 +36,7 @@ var Index = {
 			return bResult;
 		};
 		
-	},//fim setForm
+	},//fim setForm*/
 	
 };
 
