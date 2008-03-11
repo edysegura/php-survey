@@ -37,7 +37,7 @@ var Index = {
 			return result;
 		};
 		
-	},//fim setForm
+	}//fim setForm
 	
 };
 
