@@ -95,10 +95,10 @@
 					
 					<tr class="total">
 						<td class="questao">Total</td>
-						<td>xxx</td>
-						<td>xxx</td>
-						<td>xxx</td>
-						<td>xxx</td>
+						<td><?php echo $totalPesquisa1["bom"]; ?></td>
+						<td><?php echo $totalPesquisa1["regular"]; ?></td>
+						<td><?php echo $totalPesquisa1["ruim"]; ?></td>
+						<td><?php echo $totalPesquisa1["nao_utilizado"]; ?></td>
 					</tr>
 					
 				</tbody>
@@ -179,10 +179,10 @@
 					
 					<tr class="alternada total">
 						<td class="questao">Total</td>
-						<td>xxx</td>
-						<td>xxx</td>
-						<td>xxx</td>
-						<td>xxx</td>
+						<td><?php echo $totalPesquisa2["bom"]; ?></td>
+						<td><?php echo $totalPesquisa2["regular"]; ?></td>
+						<td><?php echo $totalPesquisa2["ruim"]; ?></td>
+						<td><?php echo $totalPesquisa2["nao_utilizado"]; ?></td>
 					</tr>
 					
 				</tbody>

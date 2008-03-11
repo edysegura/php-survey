@@ -7,6 +7,7 @@
  */
 
 class RelatorioGeralDAO extends DAO {
+	private $totalVotos;
 	
 	public function getRelatorioGeral($itemPesquisaId, $avaliacaoId) {
 		$DB = $this->getDB();
@@ -26,6 +27,42 @@ class RelatorioGeralDAO extends DAO {
 		}
 		
 		return $totalVotos;
+	}
+	
+	
+	public function getTotalVotos() {
+		$totalVotos = NULL;
+		
+		for($i=1; $i<=11; $i++) {
+			for($j=1; $j<=4; $j++) {
+				$totalVotos["item$i"][$j] = $this->getRelatorioGeral($i, $j);
+			}
+		}
+		
+		$this->totalVotos = $totalVotos;
+		return $totalVotos;
+	}
+	
+	
+	public function getTotalPesquisa1($avaliacaoId) {
+		$total = NULL;
+		
+		for($i=1; $i<=5; $i++) {
+			$total += $this->totalVotos["item$i"][$avaliacaoId];
+		}
+		
+		return $total;
+	}
+	
+	
+	public function getTotalPesquisa2($avaliacaoId) {
+		$total = NULL;
+		
+		for($i=6; $i<=11; $i++) {
+			$total += $this->totalVotos["item$i"][$avaliacaoId];
+		}
+		
+		return $total;
 	}
 	
 };
