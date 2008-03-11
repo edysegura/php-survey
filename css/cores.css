@@ -36,7 +36,7 @@ textarea {
 
 /* botao confirmar */
 div.botoes input {
-	background:url(../imagens/bg-botao.jpg) repeat-x !important;
+	background:transparent url(../imagens/bg-button.jpg) repeat-x !important;
 	height:20px;
 	margin-bottom:10px;
 }
