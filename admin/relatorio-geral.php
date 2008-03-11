@@ -191,7 +191,7 @@
 		</div>
 		<!-- fim da tabela avaliacao -->
 		
-		<p class="link"><a href="<?php echo $baseUrl; ?>/actions/logout.action.php">Sair</a></p>
+		<p class="link"><a href="<?php echo $baseUrl; ?>/actions/logout.action.php">Sair</a> | <a href="relatorio-detalhado.php">Relatório detalhado</a></p>
 		
 		<!-- fim div#form-content -->
 	</div>
