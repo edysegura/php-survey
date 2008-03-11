@@ -138,42 +138,42 @@
 					
 					<tr>
 						<td class="questao">Cuidados / eficiência no manuseio da carga</td>
-						<td>56</td>
-						<td>77</td>
-						<td>31</td>
-						<td>20</td>
+						<td><?php echo $totalVotos["item2"][1]; ?></td>
+						<td><?php echo $totalVotos["item2"][2]; ?></td>
+						<td><?php echo $totalVotos["item2"][3]; ?></td>
+						<td><?php echo $totalVotos["item2"][4]; ?></td>	
 					</tr>
 					
 					<tr class="alternada">
 						<td class="questao">Estado de conservação dos veículos</td>
-						<td>12</td>
-						<td>12</td>
-						<td>34</td>
-						<td>55</td>
+						<td><?php echo $totalVotos["item3"][1]; ?></td>
+						<td><?php echo $totalVotos["item3"][2]; ?></td>
+						<td><?php echo $totalVotos["item3"][3]; ?></td>
+						<td><?php echo $totalVotos["item3"][4]; ?></td>	
 					</tr>
 					
 					<tr>
 						<td class="questao">Apresentação dos funcionários</td>
-						<td>56</td>
-						<td>77</td>
-						<td>31</td>
-						<td>10</td>
+						<td><?php echo $totalVotos["item4"][1]; ?></td>
+						<td><?php echo $totalVotos["item4"][2]; ?></td>
+						<td><?php echo $totalVotos["item4"][3]; ?></td>
+						<td><?php echo $totalVotos["item4"][4]; ?></td>	
 					</tr>
 					
 					<tr class="alternada">
 						<td class="questao">Eficiência / solução imediata de problemas</td>
-						<td>12</td>
-						<td>12</td>
-						<td>34</td>
-						<td>55</td>
+						<td><?php echo $totalVotos["item5"][1]; ?></td>
+						<td><?php echo $totalVotos["item5"][2]; ?></td>
+						<td><?php echo $totalVotos["item5"][3]; ?></td>
+						<td><?php echo $totalVotos["item5"][4]; ?></td>	
 					</tr>
 					
 					<tr>
 						<td class="questao">Satisfação nos serviços prestados</td>
-						<td>56</td>
-						<td>77</td>
-						<td>31</td>
-						<td>30</td>
+						<td><?php echo $totalVotos["item6"][1]; ?></td>
+						<td><?php echo $totalVotos["item6"][2]; ?></td>
+						<td><?php echo $totalVotos["item6"][3]; ?></td>
+						<td><?php echo $totalVotos["item6"][4]; ?></td>	
 					</tr>
 					
 					<tr class="alternada total">
