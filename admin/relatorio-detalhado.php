@@ -119,11 +119,6 @@
 					<td><?php echo $totalVotos["item5"][1]; ?></td>
 				</tr>
 				
-				<tr class="total">
-					<td class="questao">Total</td>
-					<td><?php echo $totalPesquisa1["bom"]; ?></td>
-				</tr>
-				
 			</tbody>
 		</table>
 	</div>
@@ -174,11 +169,6 @@
 				<tr>
 					<td class="questao">Satisfação nos serviços prestados</td>
 					<td><?php echo $totalVotos["item11"][1]; ?></td>
-				</tr>
-				
-				<tr class="alternada total">
-					<td class="questao">Total</td>
-					<td><?php echo $totalPesquisa2["bom"]; ?></td>
 				</tr>
 				
 			</tbody>
