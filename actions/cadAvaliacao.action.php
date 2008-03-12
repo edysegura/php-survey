@@ -16,10 +16,10 @@ if(sizeof($_POST) && !empty($_POST['email'])) {
 	
 	$avaliacaoServices = new AvaliacaoServices();
 	if($avaliacaoServices->insertAvaliacao()) {
-		header("Location: $baseUrl/paginas/confirmacao.html");
+		header("Location: $baseUrl/paginas/confirmacao.php");
 	}
 	else {
-		header("Location: $baseUrl/paginas/erro.html");
+		header("Location: $baseUrl/paginas/erro.php");
 	}
 	
 }
