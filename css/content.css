@@ -19,6 +19,14 @@ div#content p {
 	text-align:justify;
 }
 
+div#content p.link { 
+	background:url(../imagens/bg-botao.jpg) repeat-x;
+	border:1px solid #D9D9D9;
+	margin:5px;
+	padding:2px 5px 2px 2px;
+	text-align:right;
+}
+
 div#content p.informativo  {
 	margin:7px 7px 10px 7px;
 	font-weight:normal;
@@ -33,6 +41,12 @@ div#informacoes input, textarea, div.indicacao input, div.botoes input {
 	padding:1px;
 }
 
+div.botoes input {
+	margin:1px;
+	padding:1px;
+	font-weight:bold;
+}
+
 /* div inforamções, comentários */
 div#informacoes, div#comentarios {
 	margin-bottom:20px;
@@ -41,7 +55,7 @@ div#informacoes, div#comentarios {
 h1#title-admin {
 	font-size:16px;
 	text-align:center;
-	margin:10px 0 10px 0;
+	margin:10px 0 15px 0;
 }
 
 div#footer {
@@ -98,16 +112,9 @@ div#erro p.msg {
 	font-weight:bold;
 }
 div#erro p,
-div#form-content p.link { 
+p.link { 
 	text-align:center;
 }
-div#erro p.voltar { 
-	margin-top:5px;
-}
-
-div#erro p.voltar  a { 
-	color:blue;
-}
-div#form-content p.link { 
+p.link { 
 	margin-bottom:10px;
 }

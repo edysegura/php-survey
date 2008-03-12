@@ -24,8 +24,10 @@
 <!-- content -->
 <div id="content">
 
-<h1 id="title-admin">Resultado Geral da Pesquisa</h1>
+<p class="link"><a href="relatorio-detalhado.php">Relatório Detalhado</a> | <a href="<?php echo $baseUrl; ?>/actions/logout.action.php">Sair</a></p>
 
+<h1 id="title-admin">Resultado Geral da Pesquisa</h1>
+		
 <!-- formulário -->
 <form id="pesquisa" method="post" action="paginas/confirmacao.html">
 	
@@ -190,8 +192,6 @@
 
 		</div>
 		<!-- fim da tabela avaliacao -->
-		
-		<p class="link"><a href="<?php echo $baseUrl; ?>/actions/logout.action.php">Sair</a> | <a href="relatorio-detalhado.php">Relatório detalhado</a></p>
 		
 		<!-- fim div#form-content -->
 	</div>

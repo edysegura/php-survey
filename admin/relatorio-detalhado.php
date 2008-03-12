@@ -24,21 +24,31 @@
 <!-- content -->
 <div id="content">
 
+<p class="link"><a href="relatorio-geral.php">Relatório Geral</a> | <a href="<?php echo $baseUrl; ?>/actions/logout.action.php">Sair</a></p>
+
 <h1 id="title-admin">Resultado Detalhado da Pesquisa</h1>
 
 <form class="filter">
 	<fieldset>
 		<legend>Filtro</legend>
 		
-			<p title="E-mail do Participante">
-				<label for="emailParticipante">E-mail:</label>
-				<select name="emailParticipante" id="emailParticipante">
-					<option value="">[...]</option>
-					<option value="1">lidy@lidy.com.br</option>
-					<option value="2">edy@segura.eti.br</option>
-				</select>
-			</p>
-		
+		<p title="Nome do Participante">
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome" id="nome" maxlength="100" />
+		</p>
+		<p title="E-mail do Participante">
+			<label for="emailParticipante">E-mail:</label>
+			<select name="emailParticipante" id="emailParticipante">
+				<option value="">[...]</option>
+				<option value="1">lidy@lidy.com.br</option>
+				<option value="2">edy@segura.eti.br</option>
+			</select>
+		</p>
+		<p title="Empresa">
+			<label for="empresa">Empresa:</label>
+			<input type="text" name="empresa" id="empresa" maxlength="100" />
+		</p>
+	
 		<div class="botoes">
 			<input type="submit" value="Filtrar" />
 		</div>
@@ -48,21 +58,21 @@
 
 <!-- dadosParticipante -->
 <div id="dadosParticipante">
-	<fieldset>
-		<legend>Dados do Participante</legend>
-			<p>
-				<label for="nome">Nome:</label>
-				<input type="text" name="nome" readonly="readonly" id="nome" value="Nome" maxlength="100" />
-			</p>
-			<p>
-				<label for="telefone">Telefone:</label>
-				<input type="text" name="telefone" readonly="readonly" id="telefone" value="(35)3425-5858" maxlength="14" />
-			</p>
-			<p>
-				<label for="empresa">Empresa:</label>
-				<input type="text" name="empresa" readonly="readonly" id="empresa" value="Teste" maxlength="100" />
-			</p>		
-		</fieldset>
+	<h2>Dados do Participante</h2>
+	<div class="dados">
+		<p>
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome" readonly="readonly" id="nome" value="Nome" maxlength="100" />
+		</p>
+		<p>
+			<label for="telefone">Telefone:</label>
+			<input type="text" name="telefone" readonly="readonly" id="telefone" value="(35)3425-5858" maxlength="14" />
+		</p>
+		<p>
+			<label for="empresa">Empresa:</label>
+			<input type="text" name="empresa" readonly="readonly" id="empresa" value="Teste" maxlength="100" />
+		</p>
+	</div>		
 </div>
 
 <!-- tabelas -->
@@ -176,8 +186,6 @@
 
 	</div>
 	<!-- fim da tabela avaliacao -->
-	
-	<p class="link"><a href="<?php echo $baseUrl; ?>/actions/logout.action.php">Sair</a> | <a href="relatorio-geral.php">Relatório Geral</a></p>
 	
 	<!-- fim div#form-content -->
 </div>

@@ -22,7 +22,7 @@ div#content h2 {
 }
 
 div#informacoes input, textarea, div.indicacao input, div.botoes input {
-	border:1px solid #999;
+	border:1px solid #bbb;
 	font-weight:normal;
 }
 
@@ -39,6 +39,7 @@ div.botoes input {
 	background:transparent url(../imagens/bg-button.jpg) repeat-x !important;
 	height:20px;
 	margin-bottom:10px;
+	font-weight:bold;
 }
 
 div.botoes input:hover {
