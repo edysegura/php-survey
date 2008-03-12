@@ -24,7 +24,7 @@
 <div id="content">
 	<div id="erro">
 		<p class="msg">O e-mail informado já foi cadastrado. Por favor, informe um novo e-mail para a avaliação.</p>
-		<p class="voltar"><a href="<?php echo $baseUrl; ?>/">Voltar a página anterior</a></p>
+		<p class="voltar"><a href="javascript:history.go(-1);">Voltar a página anterior</a></p>
 	</div>
 </div>
 
