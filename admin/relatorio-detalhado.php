@@ -96,27 +96,27 @@
 			<tbody>
 				<tr class="alternada">
 					<td class="questao">Pronto atendimento na solicitação de coletas</td>
-					<td><?php echo $totalVotos["item1"][1]; ?></td>
+					<td><?php echo $participantes["item1"][1]; ?></td>
 				</tr>
 							
 				<tr>
 					<td class="questao">Comportamento e receptividade</td>
-					<td><?php echo $totalVotos["item2"][1]; ?></td>
+					<td><?php echo $participantes["item2"][1]; ?></td>
 				</tr>
 				
 				<tr class="alternada">
 					<td class="questao">Prontidão e exatidão na transferência das ligações</td>
-					<td><?php echo $totalVotos["item3"][1]; ?></td>
+					<td><?php echo $participantes["item3"][1]; ?></td>
 				</tr>
 				
 				<tr>
 					<td class="questao">Eficiência / solução imediata de problemas</td>
-					<td><?php echo $totalVotos["item4"][1]; ?></td>
+					<td><?php echo $participantes["item4"][1]; ?></td>
 				</tr>
 				
 				<tr class="alternada">
 					<td class="questao">Precisão e confiabilidade nas informações prestadas</td>
-					<td><?php echo $totalVotos["item5"][1]; ?></td>
+					<td><?php echo $participantes["item5"][1]; ?></td>
 				</tr>
 				
 			</tbody>
@@ -143,32 +143,32 @@
 			<tbody>
 				<tr class="alternada">
 					<td class="questao">Pronto atendimento na solicitação de coletas</td>
-					<td><?php echo $totalVotos["item6"][1]; ?></td>
+					<td><?php echo $participantes["item6"][1]; ?></td>
 				</tr>
 				
 				<tr>
 					<td class="questao">Cuidados / eficiência no manuseio da carga</td>
-					<td><?php echo $totalVotos["item7"][1]; ?></td>
+					<td><?php echo $participantes["item7"][1]; ?></td>
 				</tr>
 				
 				<tr class="alternada">
 					<td class="questao">Estado de conservação dos veículos</td>
-					<td><?php echo $totalVotos["item8"][1]; ?></td>
+					<td><?php echo $participantes["item8"][1]; ?></td>
 				</tr>
 				
 				<tr>
 					<td class="questao">Apresentação dos funcionários</td>
-					<td><?php echo $totalVotos["item9"][1]; ?></td>
+					<td><?php echo $participantes["item9"][1]; ?></td>
 				</tr>
 				
 				<tr class="alternada">
 					<td class="questao">Eficiência / solução imediata de problemas</td>
-					<td><?php echo $totalVotos["item10"][1]; ?></td>
+					<td><?php echo $participantes["item10"][1]; ?></td>
 				</tr>
 				
 				<tr>
 					<td class="questao">Satisfação nos serviços prestados</td>
-					<td><?php echo $totalVotos["item11"][1]; ?></td>
+					<td><?php echo $participantes["item11"][1]; ?></td>
 				</tr>
 				
 			</tbody>
