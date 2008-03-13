@@ -1,0 +1,13 @@
+/**
+ *
+ * Definicoes para o header
+ * @author: WebEngineers - comercial@webengineers.com.br
+ *
+ */
+
+div#header {
+	height:172px;
+	background:url(images/bg-header.jpg) top no-repeat;
+}
+
+div#header h1 { display:none; }

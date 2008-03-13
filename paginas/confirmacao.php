@@ -9,7 +9,7 @@
 <title>Transportadora LOBO e LOBO - Pesquisa de Satisfação dos Clientes</title>
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/style.css" type="text/css" title="Lobo e Lobo" />
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/confirmacao.css" type="text/css" title="Lobo e Lobo" />
 
 </head>
 <body id="index">
@@ -26,7 +26,7 @@
 	<div id="confimacao">
 		<p class="nome">&nbsp;</p>
 		<p class="obrigado">Obrigado por participar da nossa Pesquisa de Satisfação de Clientes!</p>
-		<p class="img"><img src="<?php echo $baseUrl; ?>/imagens/confirma.jpg" alt="" /></p>
+		<p class="img"><img src="<?php echo $baseUrl; ?>/css/loboelobo/images/confirma.jpg" alt="" /></p>
 	</div>
 </div>
 

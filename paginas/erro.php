@@ -8,7 +8,7 @@
 <title>Transportadora LOBO e LOBO - Pesquisa de Satisfação dos Clientes</title>
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/style.css" type="text/css" title="Lobo e Lobo" />
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/tyle.css" type="text/css" title="Lobo e Lobo" />
 
 </head>
 <body id="index">

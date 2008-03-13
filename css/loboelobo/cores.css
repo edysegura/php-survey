@@ -18,7 +18,7 @@ div#content h2 {
 	background:#dadada;
 	border:1px solid #ccc;
 	border-left:4px solid #ccc;
-	background:url(../imagens/bg-botao.jpg) repeat-x;
+	background:url(images/bg-botao.jpg) repeat-x;
 }
 
 div#informacoes input, textarea, div.indicacao input, div.botoes input {
@@ -26,17 +26,9 @@ div#informacoes input, textarea, div.indicacao input, div.botoes input {
 	font-weight:normal;
 }
 
-div#informacoes input {
-	width:400px;
-}
-
-textarea {
-	width:660px;
-}
-
 /* botao confirmar */
 div.botoes input {
-	background:transparent url(../imagens/bg-button.jpg) repeat-x !important;
+	background:transparent url(images/bg-button.jpg) repeat-x !important;
 	height:20px;
 	margin-bottom:10px;
 	font-weight:bold;

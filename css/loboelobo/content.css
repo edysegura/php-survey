@@ -11,16 +11,12 @@ div#content h2 {
 }
 
 /* margem no formulario */
-div#form-content {
-	margin:4px 4px 0 4px;
-}
+div#form-content {	margin:4px 4px 0 4px; }
 
-div#content p {
-	text-align:justify;
-}
+div#content p {	text-align:justify; }
 
 div#content p.link { 
-	background:url(../imagens/bg-botao.jpg) repeat-x;
+	background:url(images/bg-botao.jpg) repeat-x;
 	border:1px solid #D9D9D9;
 	margin:5px;
 	padding:2px 5px 2px 2px;
@@ -32,9 +28,7 @@ div#content p.informativo  {
 	font-weight:normal;
 }
 
-div#informacoes {
-	margin-top:20px;
-}
+div#informacoes {	 margin-top:20px; }
 
 div#informacoes input, textarea, div.indicacao input, div.botoes input {
 	margin:1px;
@@ -106,18 +100,16 @@ div#login p.authentication-fail {
 }
 
 div#erro { height:381px; }
+
 div#erro p.msg { 
 	margin-top:50px;
 	text-align:center;
 	font-weight:bold;
 }
-div#erro p,
-p.link { 
-	text-align:center;
-}
-p.link { 
-	margin-bottom:10px;
-}
+
+div#erro p, p.link { text-align:center; }
+
+p.link { margin-bottom:10px; }
 
 div#graficos {
 	padding: 5px;
@@ -125,10 +117,10 @@ div#graficos {
 	text-align: center;
 	height: 230px;
 }
-div#graficos h2 {
-	text-align: left;
-}
+div#graficos h2 { text-align: left; }
 div#graficos p {
 	float: left;
 	margin: 2px;
 }
+
+div#informacoes input { width:400px; }
