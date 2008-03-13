@@ -58,7 +58,7 @@
 
 <!-- dadosParticipante -->
 <div id="dadosParticipante">
-	<h2>Dados do Participante</h2>
+	<h2>Dados do Participante:</h2>
 	<div class="dados">
 		<p>
 			<label for="nome">Nome:</label>
@@ -176,7 +176,15 @@
 
 	</div>
 	<!-- fim da tabela avaliacao -->
-	
+
+<!-- comentário -->
+<div id="comentario">
+	<h2>Comentário do Participante:</h2>
+	<div class="dados">
+		<p>Boa tarde! Nesta área será disponibilizado o comentário da pesquisa.</p>
+	</div>		
+</div>	
+
 	<!-- fim div#form-content -->
 </div>
 
