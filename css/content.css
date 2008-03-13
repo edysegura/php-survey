@@ -118,3 +118,17 @@ p.link {
 p.link { 
 	margin-bottom:10px;
 }
+
+div#graficos {
+	padding: 5px;
+	clear: both;
+	text-align: center;
+	height: 230px;
+}
+div#graficos h2 {
+	text-align: left;
+}
+div#graficos p {
+	float: left;
+	margin: 2px;
+}

@@ -28,9 +28,6 @@
 
 <h1 id="title-admin">Resultado Geral da Pesquisa</h1>
 		
-<!-- formulário -->
-<form id="pesquisa" method="post" action="paginas/confirmacao.html">
-	
 	<div id="form-content">
 		
 		<!-- tabela sobre os serviços da lobo e lobo -->
@@ -189,14 +186,21 @@
 					
 				</tbody>
 			</table>
-
+			
 		</div>
 		<!-- fim da tabela avaliacao -->
-		
-		<!-- fim div#form-content -->
 	</div>
-</form>
 
+	<div id="graficos">
+		<h2>Gráficos:</h2>
+		<p>
+			<img src="<?php echo $baseUrl; ?>/actions/atendimentoGrafico.action.php" alt="Gráfico Atendimento" />
+		</p>
+		<p>
+			<img src="<?php echo $baseUrl; ?>/actions/rodoviarioGrafico.action.php" alt="Gráfico Rodoviário" />
+		</p>
+	</div>
+	
 	<!-- final da div#content -->
 </div>
 

@@ -20,6 +20,16 @@ $totalPesquisa2["regular"]       = $relatorioGeral->getTotalPesquisa2(2);
 $totalPesquisa2["ruim"]          = $relatorioGeral->getTotalPesquisa2(3);
 $totalPesquisa2["nao_utilizado"] = $relatorioGeral->getTotalPesquisa2(4);
 
+$_SESSION["p1-bom"]           = $totalPesquisa1["bom"];
+$_SESSION["p1-regular"]       = $totalPesquisa1["regular"];
+$_SESSION["p1-ruim"]          = $totalPesquisa1["ruim"];
+$_SESSION["p1-nao_utilizado"] = $totalPesquisa1["nao_utilizado"];
+
+$_SESSION["p2-bom"]           = $totalPesquisa2["bom"];
+$_SESSION["p2-regular"]       = $totalPesquisa2["regular"];
+$_SESSION["p2-ruim"]          = $totalPesquisa2["ruim"];
+$_SESSION["p2-nao_utilizado"] = $totalPesquisa2["nao_utilizado"];
+
 //debug
 //echo "<pre>"; print_r($totalVotos); echo "</pre>";
 ?>
