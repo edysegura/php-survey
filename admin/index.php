@@ -15,52 +15,48 @@
 
 </head>
 <body id="index">
-<!-- global -->
-<div id="global">
 
-<!-- header -->
-<div id="header">
-	<h1>Transportadora LOBO e LOBO</h1>
-</div>
-
-<!-- content -->
-<div id="content">
-
-<h1 id="title-admin">Acesso Administrativo</h1>
-
-<!-- formulário -->
-<form id="pesquisa" method="post" action="">
-	
-	<div id="form-content">
-		<!-- login -->
-		<div id="login">
-			<fieldset>
-				<legend>Login</legend>
-				<?php echo $authenticationFail; ?>
-				<p>
-					<label for="usuario">Usuário</label><br />
-					<input type="text" name="usuario" id="usuario" value="<?php echo $_POST["usuario"]; ?>" maxlength="30" />
-				</p>
-				<p>
-					<label for="senha">Senha</label><br />
-					<input type="password" name="senha" id="senha" maxlength="14" />
-				</p>
-				<div class="botoes">
-					<input class="btn-ok" type="submit" value="OK" />
-				</div>
-			</fieldset>
+	<!-- global -->
+	<div id="global">
+		<!-- header -->
+		<div id="header">
+			<h1>Transportadora LOBO e LOBO</h1>
 		</div>
-		<!-- fim div#informacoes -->
+		
+		<!-- content -->
+		<div id="content">
+			<h1 id="title-admin">Acesso Administrativo</h1>
+			
+			<!-- formulário -->
+			<form id="pesquisa" method="post" action="">
+				<div id="form-content">
+					
+					<div id="login">
+						<fieldset>
+							<legend>Login</legend>
+							<?php echo $authenticationFail; ?>
+							<p>
+								<label for="usuario">Usuário</label><br />
+								<input type="text" name="usuario" id="usuario" value="<?php echo $_POST["usuario"]; ?>" maxlength="30" />
+							</p>
+							<p>
+								<label for="senha">Senha</label><br />
+								<input type="password" name="senha" id="senha" maxlength="14" />
+							</p>
+							<div class="botoes">
+								<input class="btn-ok" type="submit" value="OK" />
+							</div>
+						</fieldset>
+					</div>
+					
+				</div>
+			</form>
+		</div>
+
+		<!-- footer -->
+		<div id="footer"></div>
+	<!-- fim div#global -->
 	</div>
 
-	<!-- final da div#content -->
-</div>
-
-<!-- footer -->
-<div id="footer">
-</div>
-
-<!-- fim div#global -->
-</div>
 </body>
 </html>
