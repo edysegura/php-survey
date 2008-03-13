@@ -67,12 +67,16 @@ div.dados {
 	margin-bottom:20px;
 }
 
+div#dadosParticipante {
+	margin:15px 0 0 5px;
+}
+
 div#dadosParticipante p {
 	margin:5px 0 5px 0;
 }
 
 div#dadosParticipante p input  {
-	border:none;
+	border:1px solid #fff;
 	margin-left:3px;
 }
 
