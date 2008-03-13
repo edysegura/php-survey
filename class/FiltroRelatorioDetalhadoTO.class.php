@@ -1,12 +1,12 @@
 <?php
 /** 
  * 
- * Relatorio Detalhado Transfer Object
+ * Filter Relatorio Detalhado Transfer Object
  * @author: Edy Segura - edy@segura.eti.br
  * 
  */
  
-class RelatorioDetalhadoTO {
+class FiltroRelatorioDetalhadoTO {
 
 	private $nome;
 	private $empresa;
