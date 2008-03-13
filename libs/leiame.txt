@@ -1,2 +1,5 @@
 Descompactar o arquivo jpgraph.zip para o uso do gráficos nos relatório.
+
+No wamp, ir em 'PHP Settings' -> 'PHP extension's -> e clicare um 'php_gd2'.
+
 Dúvidas entre em contato através do e-mail, edy@segura.eti.br
