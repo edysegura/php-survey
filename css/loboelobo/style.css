@@ -1,0 +1,17 @@
+/**
+ *
+ * Style
+ * @author: WebEngineers - comercial@webengineers.com.br
+ *
+ */
+
+/* imports */
+@import url(reset.css);
+@import url(header.css);
+@import url(content.css);
+@import url(cores.css);
+@import url(table.css);
+
+html {
+	background:url(images/bg-content.jpg) repeat-x;
+}

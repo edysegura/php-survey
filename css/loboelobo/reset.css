@@ -1,0 +1,57 @@
+/**
+ *
+ * Definicoes para setar os valores das propriedades
+ * @author: WebEngineers - comercial@webengineers.com.br
+ *
+ */
+
+* {
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#555;
+}
+
+img {
+	border:none;
+}
+
+/* centralizar pagina */
+body#index {
+	text-align:center; 
+}
+
+div#global {
+	width:778px;
+	margin:0 auto;			
+	text-align:left;
+}
+/* fim */
+
+label {
+	float:left;
+	font-weight:bold;
+	padding-left:10px;
+	text-align:right;
+	width:70px;
+}
+
+textarea { 	width:660px; }
+
+span { 
+	margin-left:80px;
+	font-size:10px;
+	font-weight:normal;
+}
+
+div.botoes {
+	margin-top:5px;
+	text-align:center;
+}
+
+div.botoes input {
+	width:135px;
+	font-weight:bold;
+}
+
