@@ -1,5 +1,2 @@
-Criar um diretório com o nome jpgraph e colocar os arquivos da bibliotéca dentro.
-Os arquivos podem ser encontrados no seguinte endereço: http://www.aditus.nu/jpgraph/
-puxar a versão para PHP5
-
-dúvidas entre em contato através do e-mail, edy@segura.eti.br
+Descompactar o arquivo jpgraph.zip para o uso do gráficos nos relatório.
+Dúvidas entre em contato através do e-mail, edy@segura.eti.br
