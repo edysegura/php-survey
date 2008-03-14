@@ -48,13 +48,17 @@ form.filter div.botoes {
 }
 
 div#tabelas,
-div#dadosParticipante {
+div#dadosParticipante,
+div#comentario {
 	width:99%;
 	margin:0 auto;
 }
 
+div#comentario p { margin-bottom:15px; }
+
 div.dados {
 	margin-bottom:20px;
+	margin:5px;
 }
 
 div#dadosParticipante {
