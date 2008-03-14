@@ -1,6 +1,6 @@
 <?php 
 	include "../actions/validation.action.php";
-	include "$baseDir/actions/relatorioGeral.action.php";
+	include "$baseDir/actions/relatorioDetalhado.action.php";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
@@ -74,6 +74,14 @@
 						<label for="empresa">Empresa:</label>
 						<input type="text" name="empresa" readonly="readonly" id="empresa" value="Teste" maxlength="100" />
 					</p>
+				</div>		
+			</div>
+			
+			<!-- dadosParticipante -->
+			<div id="comentario">
+				<h2>Comentário:</h2>
+				<div class="dados">
+					<p>Que bom ter fechado negócio com vocês! Fui atentida muito bem.</p>
 				</div>		
 			</div>
 			
