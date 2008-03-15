@@ -30,7 +30,7 @@
 			
 			<h1 id="title-admin">Resultado Detalhado da Pesquisa</h1>
 			
-			<form class="filter">
+			<form method="post" class="filter">
 				<fieldset>
 					<legend>Filtro</legend>
 					
@@ -38,14 +38,16 @@
 						<label for="nome">Nome:</label>
 						<input type="text" name="nome" id="nome" maxlength="100" />
 					</p>
+					
 					<p title="E-mail do Participante">
 						<label for="emailParticipante">E-mail:</label>
 						<select name="emailParticipante" id="emailParticipante">
-							<option value="">[...]</option>
+							<option value="" selected="selected">[...]</option>
 							<option value="1">lidy@lidy.com.br</option>
 							<option value="2">edy@segura.eti.br</option>
 						</select>
 					</p>
+					
 					<p title="Empresa">
 						<label for="empresa">Empresa:</label>
 						<input type="text" name="empresa" id="empresa" maxlength="100" />
@@ -63,16 +65,13 @@
 				<h2>Dados do Participante</h2>
 				<div class="dados">
 					<p>
-						<label for="nome">Nome:</label>
-						<input type="text" name="nome" readonly="readonly" id="nome" value="Nome" maxlength="100" />
+						<label>Nome:</label> Nome
 					</p>
 					<p>
-						<label for="telefone">Telefone:</label>
-						<input type="text" name="telefone" readonly="readonly" id="telefone" value="(35)3425-5858" maxlength="14" />
+						<label>Telefone:</label> (35)3425-5858
 					</p>
 					<p>
-						<label for="empresa">Empresa:</label>
-						<input type="text" name="empresa" readonly="readonly" id="empresa" value="Teste" maxlength="100" />
+						<label>Empresa:</label>	WEBENGINEERS Consultoria e Desenvolvimento LTDA.
 					</p>
 				</div>		
 			</div>
