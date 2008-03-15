@@ -65,7 +65,7 @@
 				<h2>Dados do Participante:</h2>
 				<div class="dados">
 					<p>
-						<strong>Nome:</strongrrrr> <?php echo $participante->getNome(); ?>
+						<strong>Nome:</strong> <?php echo $participante->getNome(); ?>
 					</p>
 					<p>
 						<strong>Telefone:</strong> <?php echo $participante->getTelefone(); ?>
@@ -80,7 +80,7 @@
 			<div id="comentario">
 				<h2>Comentário:</h2>
 				<div class="dados">
-					<p><?php echo $participante->getComentario(); ?>asdasda</p>
+					<p><?php echo $participante->getComentario(); ?></p>
 				</div>		
 			</div>
 			
