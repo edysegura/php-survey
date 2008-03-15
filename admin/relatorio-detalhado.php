@@ -12,6 +12,9 @@
 
 <!-- stylesheet -->
 <link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/relatorio-detalhado.css" type="text/css" title="Lobo e Lobo" />
+<!--[if IE]>
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/ie-relatorio-detalhado.css" type="text/css" />
+<![endif]-->
 
 </head>
 <body id="index">
