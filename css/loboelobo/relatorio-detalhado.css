@@ -54,7 +54,9 @@ div#comentario {
 	margin:0 auto;
 }
 
-div#comentario p { margin-bottom:15px; }
+div#comentario p { 
+	margin-bottom:15px;
+}
 
 div.dados {
 	margin-bottom:20px;
@@ -62,7 +64,7 @@ div.dados {
 }
 
 div#dadosParticipante {
-	margin:15px 0 0 5px;
+	margin:15px 0 15px 5px;
 }
 
 div#dadosParticipante p {

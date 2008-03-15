@@ -62,16 +62,16 @@
 			<?php if(!empty($_POST["participanteId"])) {?>
 			<!-- dadosParticipante -->
 			<div id="dadosParticipante">
-				<h2>Dados do Participante</h2>
+				<h2>Dados do Participante:</h2>
 				<div class="dados">
 					<p>
-						<label>Nome:</label> <?php echo $participante->getNome(); ?>
+						<strong>Nome:</strongrrrr> <?php echo $participante->getNome(); ?>
 					</p>
 					<p>
-						<label>Telefone:</label> <?php echo $participante->getTelefone(); ?>
+						<strong>Telefone:</strong> <?php echo $participante->getTelefone(); ?>
 					</p>
 					<p>
-						<label>Empresa:</label>	<?php echo $participante->getEmpresa(); ?>
+						<strong>Empresa:</strong>	<?php echo $participante->getEmpresa(); ?>
 					</p>
 				</div>		
 			</div>
@@ -80,7 +80,7 @@
 			<div id="comentario">
 				<h2>Comentário:</h2>
 				<div class="dados">
-					<p><?php echo $participante->getComentario(); ?></p>
+					<p><?php echo $participante->getComentario(); ?>asdasda</p>
 				</div>		
 			</div>
 			
