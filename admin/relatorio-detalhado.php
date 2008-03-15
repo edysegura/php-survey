@@ -59,6 +59,7 @@
 				</fieldset>
 			</form>
 			
+			<?php if(!empty($_POST["participanteId"])) {?>
 			<!-- dadosParticipante -->
 			<div id="dadosParticipante">
 				<h2>Dados do Participante</h2>
@@ -186,9 +187,9 @@
 					</table>
 					
 				</div>
-				<!-- fim div#form-content -->
 			</div>
-			<!-- final da div#content -->
+			<?php } ?>
+			
 		</div>
 		
 		<!-- footer -->
