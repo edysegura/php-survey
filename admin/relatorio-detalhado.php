@@ -38,7 +38,7 @@
 						<label for="participanteId">E-mail:</label>
 						<select name="participanteId" id="participanteId">
 							<option value="">[...]</option>
-							<?php echo $options; ?>
+							<?php echo $comboParticipantes; ?>
 						</select>
 					</p>
 					
@@ -80,7 +80,12 @@
 			<div id="comentario">
 				<h2>Comentário:</h2>
 				<div class="dados">
-					<p><?php echo $participante->getComentario(); ?></p>
+					<p>
+						<?php 
+							echo ($participante->getComentario()) ? 
+						    stripslashes($participante->getComentario()) : "&nbsp;";
+						?>
+					</p>
 				</div>		
 			</div>
 			
@@ -107,27 +112,27 @@
 						<tbody>
 							<tr class="alternada">
 								<td class="questao">Pronto atendimento na solicitação de coletas</td>
-								<td><?php echo $participantes["item1"][1]; ?></td>
+								<td><?php echo $avaliacoes["item1"]; ?></td>
 							</tr>
 										
 							<tr>
 								<td class="questao">Comportamento e receptividade</td>
-								<td><?php echo $participantes["item2"][1]; ?></td>
+								<td><?php echo $avaliacoes["item2"]; ?></td>
 							</tr>
 							
 							<tr class="alternada">
 								<td class="questao">Prontidão e exatidão na transferência das ligações</td>
-								<td><?php echo $participantes["item3"][1]; ?></td>
+								<td><?php echo $avaliacoes["item3"]; ?></td>
 							</tr>
 							
 							<tr>
 								<td class="questao">Eficiência / solução imediata de problemas</td>
-								<td><?php echo $participantes["item4"][1]; ?></td>
+								<td><?php echo $avaliacoes["item4"]; ?></td>
 							</tr>
 							
 							<tr class="alternada">
 								<td class="questao">Precisão e confiabilidade nas informações prestadas</td>
-								<td><?php echo $participantes["item5"][1]; ?></td>
+								<td><?php echo $avaliacoes["item5"]; ?></td>
 							</tr>
 							
 						</tbody>
@@ -155,32 +160,32 @@
 						<tbody>
 							<tr class="alternada">
 								<td class="questao">Pronto atendimento na solicitação de coletas</td>
-								<td><?php echo $participantes["item6"][1]; ?></td>
+								<td><?php echo $avaliacoes["item6"]; ?></td>
 							</tr>
 							
 							<tr>
 								<td class="questao">Cuidados / eficiência no manuseio da carga</td>
-								<td><?php echo $participantes["item7"][1]; ?></td>
+								<td><?php echo $avaliacoes["item7"]; ?></td>
 							</tr>
 							
 							<tr class="alternada">
 								<td class="questao">Estado de conservação dos veículos</td>
-								<td><?php echo $participantes["item8"][1]; ?></td>
+								<td><?php echo $avaliacoes["item8"]; ?></td>
 							</tr>
 							
 							<tr>
 								<td class="questao">Apresentação dos funcionários</td>
-								<td><?php echo $participantes["item9"][1]; ?></td>
+								<td><?php echo $avaliacoes["item9"]; ?></td>
 							</tr>
 							
 							<tr class="alternada">
 								<td class="questao">Eficiência / solução imediata de problemas</td>
-								<td><?php echo $participantes["item10"][1]; ?></td>
+								<td><?php echo $avaliacoes["item10"]; ?></td>
 							</tr>
 							
 							<tr>
 								<td class="questao">Satisfação nos serviços prestados</td>
-								<td><?php echo $participantes["item11"][1]; ?></td>
+								<td><?php echo $avaliacoes["item11"]; ?></td>
 							</tr>
 							
 						</tbody>

@@ -10,9 +10,10 @@ include "../includes/autoload.inc.php";
 $rd = new RelatorioDetalhadoServices();
 
 if(!empty($_POST["participanteId"])) {
-	$participante = $rd->getParticipante();
+	$participante = $rd->getParticipante($_POST["participanteId"]);
+	$avaliacoes   = $rd->getParticipanteAvaliacao($_POST["participanteId"]);
 }
 
-$options = $rd->getComboParticipantes();
+$comboParticipantes = $rd->getComboParticipantes($_POST["participanteId"]);
 
 ?>

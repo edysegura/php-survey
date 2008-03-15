@@ -8,11 +8,11 @@
 
 class RelatorioDetalhadoServices {
 	
-	public function getComboParticipantes() {
+	public function getComboParticipantes($participanteId) {
 		$db = new ParticipanteDAO();
 		$participantes = $db->getEmailParticipantes();
 		
-		$participanteId = (!empty($_POST["participanteId"])) ? $_POST["participanteId"] : 0;
+		$participanteId = (!empty($participanteId)) ? $participanteId : 0;
 		$options = "";
 		
 		foreach($participantes as $participante) {
@@ -23,18 +23,36 @@ class RelatorioDetalhadoServices {
 		return $options;
 	}
 	
-	public function getParticipante() {
+	public function getParticipante($participanteId) {
 		$db = new ParticipanteDAO();
 		$participante = NULL;
 		
+		$participanteId = (!empty($participanteId)) ? $participanteId : 0;
+		
 		try {
-			$participante = $db->getById($_POST["participanteId"]);
+			$participante = $db->getById($participanteId);
 		}
 		catch (Exception $e) {
 			echo "Ocorreu uma exceção: ",  $e, "\n";
 		}
 		
 		return $participante;
+	}
+	
+	public function getParticipanteAvaliacao($participanteId) {
+		$db = new RelatorioDetalhadoDAO();
+		$avaliacoes = NULL;
+		
+		$participanteId = (!empty($participanteId)) ? $participanteId : 0;
+		
+		try {
+			$avaliacoes = $db->getParticipanteAvaliacao($participanteId);
+		}
+		catch (Exception $e) {
+			echo "Ocorreu uma exceção: ",  $e, "\n";
+		}
+		
+		return $avaliacoes;
 	}
 	
 };
