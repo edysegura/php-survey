@@ -23,5 +23,19 @@ class RelatorioDetalhadoServices {
 		return $options;
 	}
 	
+	public function getParticipante() {
+		$db = new ParticipanteDAO();
+		$participante = NULL;
+		
+		try {
+			$participante = $db->getById($_POST["participanteId"]);
+		}
+		catch (Exception $e) {
+			echo "Ocorreu uma exceção: ",  $e, "\n";
+		}
+		
+		return $participante;
+	}
+	
 };
 ?>

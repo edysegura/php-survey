@@ -65,13 +65,13 @@
 				<h2>Dados do Participante</h2>
 				<div class="dados">
 					<p>
-						<label>Nome:</label> Nome
+						<label>Nome:</label> <?php echo $participante->getNome(); ?>
 					</p>
 					<p>
-						<label>Telefone:</label> (35)3425-5858
+						<label>Telefone:</label> <?php echo $participante->getTelefone(); ?>
 					</p>
 					<p>
-						<label>Empresa:</label>	WEBENGINEERS Consultoria e Desenvolvimento LTDA.
+						<label>Empresa:</label>	<?php echo $participante->getEmpresa(); ?>
 					</p>
 				</div>		
 			</div>
@@ -80,7 +80,7 @@
 			<div id="comentario">
 				<h2>Comentário:</h2>
 				<div class="dados">
-					<p>Que bom ter fechado negócio com vocês! Fui atentida muito bem.</p>
+					<p><?php echo $participante->getComentario(); ?></p>
 				</div>		
 			</div>
 			
