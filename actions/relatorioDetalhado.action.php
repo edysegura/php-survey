@@ -15,5 +15,7 @@ if(!empty($_POST["participanteId"])) {
 }
 
 $comboParticipantes = $rd->getComboParticipantes($_POST["participanteId"]);
+$comboNomes         = $rd->getComboNomesParticipantes($_POST["participanteId"]);
+$comboEmpresas      = $rd->getComboEmpresasParticipantes($_POST["participanteId"]);
 
 ?>

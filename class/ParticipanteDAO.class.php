@@ -34,7 +34,7 @@ class ParticipanteDAO extends DAO {
 	
 	
 	/*
-	 * Recuperando todos os participantes
+	 * Recuperando participantes
 	 */
 	public function getEmailParticipantes() {
 		$participantes = NULL;
@@ -53,6 +53,47 @@ class ParticipanteDAO extends DAO {
 		return $participantes;
 	}
 	
+	
+	/*
+	 * Recuperando empresas participantes
+	 */
+	public function getEmpresasParticipantes() {
+		$participantes = NULL;
+		$DB = $this->getDB();
+		
+		$sQuery   = "SELECT id, empresa FROM participante WHERE empresa <> ''";
+		$rsResult = $DB->executeSQL($sQuery);
+		
+		if($rsResult != NULL) {
+			$participantes = $this->getParticipanteTO($rsResult);
+		}
+		else {
+			throw new Exception("N&atilde;o foi poss&iacute;vel recuperar participantes.");
+		}
+		
+		return $participantes;
+	}
+	
+	
+	/*
+	 * Recuperando nome dos participantes
+	 */
+	public function getNomesParticipantes() {
+		$participantes = NULL;
+		$DB = $this->getDB();
+		
+		$sQuery   = "SELECT id, nome FROM participante WHERE nome <> ''";
+		$rsResult = $DB->executeSQL($sQuery);
+		
+		if($rsResult != NULL) {
+			$participantes = $this->getParticipanteTO($rsResult);
+		}
+		else {
+			throw new Exception("N&atilde;o foi poss&iacute;vel recuperar participantes.");
+		}
+		
+		return $participantes;
+	}
 	
 	/*
 	 * Recuperando tupla pelo ID

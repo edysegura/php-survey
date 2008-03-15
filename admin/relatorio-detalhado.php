@@ -46,6 +46,7 @@
 						<label for="participanteNome">Nome:</label>
 						<select name="participanteNome" id="participanteNome">
 							<option value="">[...]</option>
+							<?php echo $comboNomes; ?>
 						</select>
 					</p>
 					
@@ -53,6 +54,7 @@
 						<label for="participanteEmpresa">Empresa:</label>
 						<select name="participanteEmpresa" id="participanteEmpresa">
 							<option value="">[...]</option>
+							<?php echo $comboEmpresas; ?>
 						</select>
 					</p>
 					

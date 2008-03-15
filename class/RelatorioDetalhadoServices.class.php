@@ -23,6 +23,37 @@ class RelatorioDetalhadoServices {
 		return $options;
 	}
 	
+	public function getComboNomesParticipantes($participanteId) {
+		$db = new ParticipanteDAO();
+		$participantes = $db->getNomesParticipantes();
+		
+		$participanteId = (!empty($participanteId)) ? $participanteId : 0;
+		$options = "";
+		
+		foreach($participantes as $participante) {
+			$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
+			$options .= "<option $selected value=\"{$participante->getId()}\">{$participante->getNome()}</option>\n";
+		}
+		
+		return $options;
+	}
+	
+	public function getComboEmpresasParticipantes($participanteId) {
+		$db = new ParticipanteDAO();
+		$participantes = $db->getEmpresasParticipantes();
+		
+		$participanteId = (!empty($participanteId)) ? $participanteId : 0;
+		$options = "";
+		
+		foreach($participantes as $participante) {
+			$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
+			$options .= "<option $selected value=\"{$participante->getId()}\">{$participante->getEmpresa()}</option>\n";
+		}
+		
+		return $options;
+	}
+	
+	
 	public function getParticipante($participanteId) {
 		$db = new ParticipanteDAO();
 		$participante = NULL;
