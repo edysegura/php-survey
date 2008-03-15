@@ -12,9 +12,6 @@
 
 <!-- stylesheet -->
 <link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/relatorio-detalhado.css" type="text/css" title="Lobo e Lobo" />
-<!--[if IE]>
-<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/ie-relatorio-detalhado.css" type="text/css" />
-<![endif]-->
 
 </head>
 <body id="index">
@@ -46,13 +43,17 @@
 					</p>
 					
 					<p title="Nome do Participante">
-						<label for="nome">Nome:</label>
-						<input type="text" name="nome" id="nome" maxlength="100" />
+						<label for="participanteNome">Nome:</label>
+						<select name="participanteNome" id="participanteNome">
+							<option value="">[...]</option>
+						</select>
 					</p>
 					
 					<p title="Empresa">
-						<label for="empresa">Empresa:</label>
-						<input type="text" name="empresa" id="empresa" maxlength="100" />
+						<label for="participanteEmpresa">Empresa:</label>
+						<select name="participanteEmpresa" id="participanteEmpresa">
+							<option value="">[...]</option>
+						</select>
 					</p>
 					
 					<div class="botoes">
