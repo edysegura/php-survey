@@ -35,9 +35,9 @@
 					<legend>Filtro</legend>
 					
 					<p title="E-mail do Participante">
-						<label for="emailParticipante">E-mail:</label>
-						<select name="emailParticipante" id="emailParticipante">
-							<option value="" selected="selected">[...]</option>
+						<label for="participanteId">E-mail:</label>
+						<select name="participanteId" id="participanteId">
+							<option value="">[...]</option>
 							<?php echo $options; ?>
 						</select>
 					</p>
