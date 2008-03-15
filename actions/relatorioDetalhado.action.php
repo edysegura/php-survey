@@ -7,6 +7,7 @@
  */
 
 include "../includes/autoload.inc.php";
-$relatorioGeral = new RelatorioDetalhadoDAO();
+$rd = new RelatorioDetalhadoServices();
 
+$options = $rd->getComboParticipantes();
 ?>

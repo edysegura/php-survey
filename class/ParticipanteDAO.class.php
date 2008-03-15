@@ -34,6 +34,27 @@ class ParticipanteDAO extends DAO {
 	
 	
 	/*
+	 * Recuperando todos os participantes
+	 */
+	public function getEmailParticipantes() {
+		$participantes = NULL;
+		$DB = $this->getDB();
+		
+		$sQuery   = "SELECT id, email FROM participante";
+		$rsResult = $DB->executeSQL($sQuery);
+		
+		if($rsResult != NULL) {
+			$participantes = $this->getParticipanteTO($rsResult);
+		}
+		else {
+			throw new Exception("N&atilde;o foi poss&iacute;vel recuperar participantes.");
+		}
+		
+		return $participantes;
+	}
+	
+	
+	/*
 	 * Recuperando tupla pelo ID
 	 */
 	public function getById($id) {

@@ -30,22 +30,21 @@
 			
 			<h1 id="title-admin">Resultado Detalhado da Pesquisa</h1>
 			
-			<form method="post" class="filter">
+			<form method="post" action="" class="filter">
 				<fieldset>
 					<legend>Filtro</legend>
-					
-					<p title="Nome do Participante">
-						<label for="nome">Nome:</label>
-						<input type="text" name="nome" id="nome" maxlength="100" />
-					</p>
 					
 					<p title="E-mail do Participante">
 						<label for="emailParticipante">E-mail:</label>
 						<select name="emailParticipante" id="emailParticipante">
 							<option value="" selected="selected">[...]</option>
-							<option value="1">lidy@lidy.com.br</option>
-							<option value="2">edy@segura.eti.br</option>
+							<?php echo $options; ?>
 						</select>
+					</p>
+					
+					<p title="Nome do Participante">
+						<label for="nome">Nome:</label>
+						<input type="text" name="nome" id="nome" maxlength="100" />
 					</p>
 					
 					<p title="Empresa">
