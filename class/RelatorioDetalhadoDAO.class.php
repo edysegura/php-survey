@@ -7,10 +7,9 @@
  */
 
 class RelatorioDetalhadoDAO extends DAO {
-	$Participante  = NULL;
-	$participantes = array();
+	private $participante = NULL;
 	
-	public function getRelatorioGeral($id = NULL, $filtro = NULL) {
+	public function getRelatorioGeral($filtro = NULL) {
 		$DB = $this->getDB();
 		
 		$sQueryPre = "SELECT participante.email, participante.nome, participante.telefone, participante.comentario,
@@ -73,9 +72,6 @@ class RelatorioDetalhadoDAO extends DAO {
 		
 		return $participantes;
 	}
-	
-	
-
 	
 };
 ?>
