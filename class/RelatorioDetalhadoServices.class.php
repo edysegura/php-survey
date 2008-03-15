@@ -8,7 +8,7 @@
 
 class RelatorioDetalhadoServices {
 	
-	public function getComboParticipantes($participanteId) {
+	public function getComboParticipantes($participanteId = NULL) {
 		$db = new ParticipanteDAO();
 		$participantes = $db->getEmailParticipantes();
 		
@@ -23,7 +23,7 @@ class RelatorioDetalhadoServices {
 		return $options;
 	}
 	
-	public function getComboNomesParticipantes($participanteId) {
+	public function getComboNomesParticipantes($participanteId = NULL) {
 		$db = new ParticipanteDAO();
 		$participantes = $db->getNomesParticipantes();
 		
@@ -38,7 +38,7 @@ class RelatorioDetalhadoServices {
 		return $options;
 	}
 	
-	public function getComboEmpresasParticipantes($participanteId) {
+	public function getComboEmpresasParticipantes($participanteId = NULL) {
 		$db = new ParticipanteDAO();
 		$participantes = $db->getEmpresasParticipantes();
 		

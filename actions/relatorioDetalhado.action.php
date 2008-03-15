@@ -8,14 +8,21 @@
 
 include "../includes/autoload.inc.php";
 $rd = new RelatorioDetalhadoServices();
+$participanteId = "";
 
-if(!empty($_POST["participanteId"])) {
-	$participante = $rd->getParticipante($_POST["participanteId"]);
-	$avaliacoes   = $rd->getParticipanteAvaliacao($_POST["participanteId"]);
+if(!empty($_POST["participanteId"]) || 
+   !empty($_POST["nomeId"]) || 
+	 !empty($_POST["empresaId"])) {
+	 
+	$participanteId = (!empty($_POST["participanteId"])) ? $_POST["participanteId"] : 
+	                  (!empty($_POST["nomeId"])) ? $_POST["nomeId"] : $_POST["empresaId"];
+	
+	$participante = $rd->getParticipante($participanteId);
+	$avaliacoes   = $rd->getParticipanteAvaliacao($participanteId);
 }
 
-$comboParticipantes = $rd->getComboParticipantes($_POST["participanteId"]);
-$comboNomes         = $rd->getComboNomesParticipantes($_POST["participanteId"]);
-$comboEmpresas      = $rd->getComboEmpresasParticipantes($_POST["participanteId"]);
+$comboParticipantes = $rd->getComboParticipantes($participanteId);
+$comboNomes         = $rd->getComboNomesParticipantes();
+$comboEmpresas      = $rd->getComboEmpresasParticipantes();
 
 ?>

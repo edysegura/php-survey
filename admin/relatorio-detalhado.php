@@ -43,16 +43,16 @@
 					</p>
 					
 					<p title="Nome do Participante">
-						<label for="participanteNome">Nome:</label>
-						<select name="participanteNome" id="participanteNome">
+						<label for="nomeId">Nome:</label>
+						<select name="nomeId" id="nomeId">
 							<option value="">[...]</option>
 							<?php echo $comboNomes; ?>
 						</select>
 					</p>
 					
-					<p title="Empresa">
-						<label for="participanteEmpresa">Empresa:</label>
-						<select name="participanteEmpresa" id="participanteEmpresa">
+					<p title="Empresa do Participante">
+						<label for="empresaId">Empresa:</label>
+						<select name="empresaId" id="empresaId">
 							<option value="">[...]</option>
 							<?php echo $comboEmpresas; ?>
 						</select>
@@ -65,7 +65,7 @@
 				</fieldset>
 			</form>
 			
-			<?php if(!empty($_POST["participanteId"])) {?>
+			<?php if(!empty($participanteId)) {?>
 			<!-- dadosParticipante -->
 			<div id="dadosParticipante">
 				<h2>Dados do Participante:</h2>
