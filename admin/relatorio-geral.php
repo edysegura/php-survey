@@ -5,13 +5,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
 <head>
+<base href="<?php echo $baseUrl; ?>/" />
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="author" content="WebEngineers" />
 <meta name="reply-to" content="contato@webengineers.com.br" />
 <title>Transportadora LOBO e LOBO - Pesquisa de Satisfação dos Clientes</title>
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/style.css" type="text/css" title="Lobo e Lobo" />
+<link rel="stylesheet" href="css/loboelobo/style.css" type="text/css" title="Lobo e Lobo" />
 
 </head>
 <body id="index">
@@ -27,8 +28,9 @@
 		<div id="content">
 			
 			<p class="link">
+				<a href="actions/exportToExcel.action.php" class="excel" title="Exportar para Excel">Excel</a> | 
 				<a href="relatorio-detalhado.php">Relatório Detalhado</a> | 
-				<a href="<?php echo $baseUrl; ?>/actions/logout.action.php">Sair</a>
+				<a href="actions/logout.action.php">Sair</a>
 			</p>
 			
 			<h1 id="title-admin">Resultado Geral da Pesquisa</h1>
@@ -202,10 +204,10 @@
 			<div id="graficos">
 				<h2>Gráficos:</h2>
 				<p>
-					<img src="<?php echo $baseUrl; ?>/actions/atendimentoGrafico.action.php" alt="Gráfico Atendimento" />
+					<img src="actions/atendimentoGrafico.action.php" alt="Gráfico Atendimento" />
 				</p>
 				<p>
-					<img src="<?php echo $baseUrl; ?>/actions/rodoviarioGrafico.action.php" alt="Gráfico Rodoviário" />
+					<img src="actions/rodoviarioGrafico.action.php" alt="Gráfico Rodoviário" />
 				</p>
 			</div>
 			
