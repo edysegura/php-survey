@@ -1,20 +1,17 @@
 <?php
-/** 
+/**
  * 
- * Participante Transfer Object
+ * Participante Avaliacao Transfer Object
  * @author: Edy Segura - edy@segura.eti.br
  * 
  */
- 
-class ParticipanteTO {
+
+class ParticipanteAvaliacaoTO {
 
 	private $id;
-	private $nome;
-	private $telefone;
-	private $empresa;
-	private $email;
-	private $comentario;
-	public  $avaliacoes;
+	private $participanteId;
+	private $itemPesquisaId;
+	private $avaliacaoId;
 	
 	
 	public function setId($id) {
@@ -25,39 +22,26 @@ class ParticipanteTO {
 	}
 	
 	
-	public function setNome($nome) {
-		$this->nome = $nome;
+	public function setParticipanteId($participanteId) {
+		$this->participanteId = $participanteId;
 	}
-	public function getNome() {
-		return $this->nome;
-	}
-	
-	public function setTelefone($telefone) {
-		$this->telefone = $telefone;
-	}
-	public function getTelefone() {
-		return $this->telefone;
+	public function getParticipanteId() {
+		return $this->participanteId;
 	}
 	
-	public function setEmpresa($empresa) {
-		$this->empresa = $empresa;
+	public function setItemPesquisaId($itemPesquisaId) {
+		$this->itemPesquisaId = $itemPesquisaId;
 	}
-	public function getEmpresa() {
-		return $this->empresa;
-	}
-	
-	public function setEmail($email) {
-		$this->email = $email;
-	}
-	public function getEmail() {
-		return $this->email;
+	public function getItemPesquisaId() {
+		return $this->itemPesquisaId;
 	}
 	
-	public function setComentario($comentario) {
-		$this->comentario = $comentario;
+	public function setAvaliacaoId($avaliacaoId) {
+		$this->avaliacaoId = $avaliacaoId;
 	}
-	public function getComentario() {
-		return $this->comentario;
+	public function getAvaliacaoId() {
+		return $this->avaliacaoId;
 	}
+	
 };
 ?>
