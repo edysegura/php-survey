@@ -5,6 +5,11 @@
  *
  */
 
+a.excel {
+	padding-right: 16px;
+	background: transparent url(images/icon-xls.gif) no-repeat bottom right;
+}
+
 div#content h2 {
 	padding:2px 0 2px 2px;
 	margin:0 0 5px 0;
