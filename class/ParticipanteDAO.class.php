@@ -61,7 +61,7 @@ class ParticipanteDAO extends DAO {
 		$participantes = NULL;
 		$DB = $this->getDB();
 		
-		$sQuery   = "SELECT id, empresa FROM participante WHERE empresa <> ''";
+		$sQuery   = "SELECT id, empresa, email FROM participante WHERE empresa <> '' ORDER BY empresa";
 		$rsResult = $DB->executeSQL($sQuery);
 		
 		if($rsResult != NULL) {
@@ -82,7 +82,7 @@ class ParticipanteDAO extends DAO {
 		$participantes = NULL;
 		$DB = $this->getDB();
 		
-		$sQuery   = "SELECT id, nome FROM participante WHERE nome <> ''";
+		$sQuery   = "SELECT id, nome, email FROM participante WHERE nome <> '' ORDER BY nome";
 		$rsResult = $DB->executeSQL($sQuery);
 		
 		if($rsResult != NULL) {

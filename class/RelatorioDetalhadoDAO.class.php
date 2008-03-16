@@ -13,12 +13,11 @@ class RelatorioDetalhadoDAO extends DAO {
 		$avaliacoes = NULL;
 		
 		$sQuery = "SELECT participante.id as participanteId, 
-		                  participante_avaliacao.item_pesquisa_id as pergunta, 
-                      avaliacao.descricao 
-							 FROM participante
-               LEFT JOIN participante_avaliacao ON participante_avaliacao.participante_id = participante.id
-               LEFT JOIN avaliacao ON avaliacao.id = participante_avaliacao.avaliacao_id
-               WHERE participante.id = $participanteId";
+		                  participante_avaliacao.item_pesquisa_id as pergunta, avaliacao.descricao 
+						  FROM participante
+                   LEFT JOIN participante_avaliacao ON participante_avaliacao.participante_id = participante.id
+                   LEFT JOIN avaliacao ON avaliacao.id = participante_avaliacao.avaliacao_id
+                   WHERE participante.id = $participanteId";
 		
 		$rsResult = $DB->executeSQL($sQuery);
 		

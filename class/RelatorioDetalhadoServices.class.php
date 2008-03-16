@@ -32,7 +32,7 @@ class RelatorioDetalhadoServices {
 		
 		foreach($participantes as $participante) {
 			$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
-			$options .= "<option $selected value=\"{$participante->getId()}\">{$participante->getNome()}</option>\n";
+			$options .= "<option $selected value=\"{$participante->getId()}\">Nome: {$participante->getNome()} | E-mail: {$participante->getEmail()}</option>\n";
 		}
 		
 		return $options;
@@ -47,7 +47,7 @@ class RelatorioDetalhadoServices {
 		
 		foreach($participantes as $participante) {
 			$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
-			$options .= "<option $selected value=\"{$participante->getId()}\">{$participante->getEmpresa()}</option>\n";
+			$options .= "<option $selected value=\"{$participante->getId()}\">Empresa: {$participante->getEmpresa()} | E-mail: {$participante->getEmail()}</option>\n";
 		}
 		
 		return $options;
