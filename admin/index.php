@@ -53,10 +53,12 @@
 				</div>
 			</form>
 		</div>
-
-		<!-- footer -->
-		<div id="footer"></div>
 	<!-- fim div#global -->
+	</div>
+	
+	<!-- footer -->
+	<div id="footer">
+		<p>Copyright© 2008 Transportadora Lobo e Lobo</p>
 	</div>
 
 </body>

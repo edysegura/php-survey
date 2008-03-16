@@ -60,6 +60,7 @@ h1#title-admin {
 div#footer {
 	margin:0pt auto;
 	width:62%;
+	margin-bottom:3px;
 }
 div#footer p,
 div#footer a {

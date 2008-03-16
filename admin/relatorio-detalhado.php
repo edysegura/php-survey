@@ -206,10 +206,12 @@
 			<?php } ?>
 			
 		</div>
-		
-		<!-- footer -->
-		<div id="footer"></div>
 	</div>
-
+	
+	<!-- footer -->
+	<div id="footer">
+		<p>Copyright© 2008 Transportadora Lobo e Lobo</p>
+	</div>
+		
 </body>
 </html>
