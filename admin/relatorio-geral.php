@@ -29,7 +29,7 @@
 			
 			<p class="link">
 				<a href="actions/exportToExcel.action.php" class="excel" title="Exportar para Excel">Excel</a> | 
-				<a href="relatorio-detalhado.php">Relatório Detalhado</a> | 
+				<a href="admin/relatorio-detalhado.php">Relatório Detalhado</a> | 
 				<a href="actions/logout.action.php">Sair</a>
 			</p>
 			
