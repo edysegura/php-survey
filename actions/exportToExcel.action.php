@@ -72,11 +72,11 @@ header("Expires: 0");
 		</tr>
 		
 		<tr style="background:#CCCCCC;">
-			<td>Total</td>
-			<td><?php echo $totalPesquisa1["bom"]; ?></td>
-			<td><?php echo $totalPesquisa1["regular"]; ?></td>
-			<td><?php echo $totalPesquisa1["ruim"]; ?></td>
-			<td><?php echo $totalPesquisa1["nao_utilizado"]; ?></td>
+			<td><strong>Total</strong></td>
+			<td><strong><?php echo $totalPesquisa1["bom"]; ?></strong></td>
+			<td><strong><?php echo $totalPesquisa1["regular"]; ?></strong></td>
+			<td><strong><?php echo $totalPesquisa1["ruim"]; ?></strong></td>
+			<td><strong><?php echo $totalPesquisa1["nao_utilizado"]; ?></strong></td>
 		</tr>
 		
 	</tbody>
@@ -149,11 +149,11 @@ header("Expires: 0");
 		</tr>
 		
 		<tr style="background:#CCCCCC;">
-			<td>Total</td>
-			<td><?php echo $totalPesquisa2["bom"]; ?></td>
-			<td><?php echo $totalPesquisa2["regular"]; ?></td>
-			<td><?php echo $totalPesquisa2["ruim"]; ?></td>
-			<td><?php echo $totalPesquisa2["nao_utilizado"]; ?></td>
+			<td><strong>Total</strong></td>
+			<td><strong><?php echo $totalPesquisa2["bom"]; ?></strong></td>
+			<td><strong><?php echo $totalPesquisa2["regular"]; ?></strong></td>
+			<td><strong><?php echo $totalPesquisa2["ruim"]; ?></strong></td>
+			<td><strong><?php echo $totalPesquisa2["nao_utilizado"]; ?></strong></td>
 		</tr>
 		
 	</tbody>
