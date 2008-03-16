@@ -8,21 +8,28 @@
 
 include "../includes/autoload.inc.php";
 $rd = new RelatorioDetalhadoServices();
-$participanteId = "";
+$id = "";
 
 if(!empty($_POST["participanteId"]) || 
    !empty($_POST["nomeId"]) || 
 	 !empty($_POST["empresaId"])) {
 	 
-	$participanteId = (!empty($_POST["participanteId"])) ? $_POST["participanteId"] : 
-	                  (!empty($_POST["nomeId"])) ? $_POST["nomeId"] : $_POST["empresaId"];
+	if(!empty($_POST["participanteId"])) {
+		$id = $participanteId = $_POST["participanteId"];
+	}
+	elseif (!empty($_POST["nomeId"])) {
+		$id = $nomeId = $_POST["nomeId"];
+	}
+	elseif (!empty($_POST["empresaId"])) {
+		$id = $empresaId = $_POST["empresaId"];
+	}
 	
-	$participante = $rd->getParticipante($participanteId);
-	$avaliacoes   = $rd->getParticipanteAvaliacao($participanteId);
+	$participante = $rd->getParticipante($id);
+	$avaliacoes   = $rd->getParticipanteAvaliacao($id);
 }
 
 $comboParticipantes = $rd->getComboParticipantes($participanteId);
-$comboNomes         = $rd->getComboNomesParticipantes();
-$comboEmpresas      = $rd->getComboEmpresasParticipantes();
+$comboNomes         = $rd->getComboNomesParticipantes($nomeId);
+$comboEmpresas      = $rd->getComboEmpresasParticipantes($empresaId);
 
 ?>

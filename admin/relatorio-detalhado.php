@@ -13,6 +13,9 @@
 <!-- stylesheet -->
 <link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/relatorio-detalhado.css" type="text/css" title="Lobo e Lobo" />
 
+<!-- javascript -->
+<script type="text/javascript" src="<?php echo $baseUrl; ?>/js/RelatorioDetalhado.js"></script>
+
 </head>
 <body id="index">
 
@@ -30,7 +33,7 @@
 			
 			<h1 id="title-admin">Resultado Detalhado da Pesquisa</h1>
 			
-			<form method="post" action="" class="filter">
+			<form id="filter" method="post" action="" class="filter">
 				<fieldset>
 					<legend>Filtro</legend>
 					
@@ -65,7 +68,7 @@
 				</fieldset>
 			</form>
 			
-			<?php if(!empty($participanteId)) {?>
+			<?php if(!empty($id)) {?>
 			<!-- dadosParticipante -->
 			<div id="dadosParticipante">
 				<h2>Dados do Participante:</h2>
