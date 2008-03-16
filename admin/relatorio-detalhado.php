@@ -5,16 +5,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
 <head>
+<base href="<?php echo $baseUrl; ?>/" />
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="author" content="WebEngineers" />
 <meta name="reply-to" content="contato@webengineers.com.br" />
 <title>Transportadora LOBO e LOBO - Pesquisa de Satisfação dos Clientes</title>
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/relatorio-detalhado.css" type="text/css" title="Lobo e Lobo" />
+<link rel="stylesheet" href="css/loboelobo/relatorio-detalhado.css" type="text/css" title="Lobo e Lobo" />
 
 <!-- javascript -->
-<script type="text/javascript" src="<?php echo $baseUrl; ?>/js/RelatorioDetalhado.js"></script>
+<script type="text/javascript" src="js/RelatorioDetalhado.js"></script>
 
 </head>
 <body id="index">
@@ -29,7 +30,7 @@
 		<!-- content -->
 		<div id="content">
 			
-			<p class="link"><a href="relatorio-geral.php">Relatório Geral</a> | <a href="<?php echo $baseUrl; ?>/actions/logout.action.php">Sair</a></p>
+			<p class="link"><a href="admin/relatorio-geral.php">Relatório Geral</a> | <a href="actions/logout.action.php">Sair</a></p>
 			
 			<h1 id="title-admin">Resultado Detalhado da Pesquisa</h1>
 			

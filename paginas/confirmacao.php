@@ -2,6 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
 <head>
+<base href="<?php echo $baseUrl; ?>/" />
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta http-equiv="refresh" content="2; <?php echo $baseUrl; ?>/" />
 <meta name="author" content="WebEngineers" />
@@ -9,7 +10,7 @@
 <title>Transportadora LOBO e LOBO - Pesquisa de Satisfação dos Clientes</title>
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/confirmacao.css" type="text/css" title="Lobo e Lobo" />
+<link rel="stylesheet" href="css/loboelobo/confirmacao.css" type="text/css" title="Lobo e Lobo" />
 
 </head>
 <body id="index">
@@ -26,13 +27,12 @@
 		<div id="confimacao">
 			<p class="nome">&nbsp;</p>
 			<p class="obrigado">Obrigado por participar da nossa Pesquisa de Satisfação de Clientes!</p>
-			<p class="img"><img src="<?php echo $baseUrl; ?>/css/loboelobo/images/confirma.jpg" alt="" /></p>
+			<p class="img"><img src="images/confirma.jpg" alt="Logo da transportadora Lobo e Lobo" /></p>
 		</div>
 	</div>
 
 	<!-- footer -->
-	<div id="footer">
-	</div>
+	<div id="footer"></div>
 </div>
 
 </body>

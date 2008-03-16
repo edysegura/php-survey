@@ -2,13 +2,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<base href="<?php echo $baseUrl; ?>/" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="author" content="WebEngineers" />
 <meta name="reply-to" content="contato@webengineers.com.br" />
 <title>Transportadora LOBO e LOBO - Pesquisa de Satisfação dos Clientes</title>
 
 <!-- stylesheet -->
-<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/loboelobo/style.css" type="text/css" title="Lobo e Lobo" />
+<link rel="stylesheet" href="css/loboelobo/style.css" type="text/css" title="Lobo e Lobo" />
 
 </head>
 <body id="index">
