@@ -1,7 +1,7 @@
 <?php
 /** 
  * 
- * Avaliacao Services
+ * Relatorio Detalhado Services
  * @author: Edy Segura - edy@segura.eti.br
  * 
  */
@@ -15,9 +15,11 @@ class RelatorioDetalhadoServices {
 		$participanteId = (!empty($participanteId)) ? $participanteId : 0;
 		$options = "";
 		
-		foreach($participantes as $participante) {
-			$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
-			$options .= "<option $selected value=\"{$participante->getId()}\">{$participante->getEmail()}</option>\n";
+		if($participantes) {
+			foreach($participantes as $participante) {
+				$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
+				$options .= "<option $selected value=\"{$participante->getId()}\">{$participante->getEmail()}</option>\n";
+			}
 		}
 		
 		return $options;
@@ -30,9 +32,11 @@ class RelatorioDetalhadoServices {
 		$participanteId = (!empty($participanteId)) ? $participanteId : 0;
 		$options = "";
 		
-		foreach($participantes as $participante) {
-			$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
-			$options .= "<option $selected value=\"{$participante->getId()}\">Nome: {$participante->getNome()} | E-mail: {$participante->getEmail()}</option>\n";
+		if($participantes) {
+			foreach($participantes as $participante) {
+				$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
+				$options .= "<option $selected value=\"{$participante->getId()}\">Nome: {$participante->getNome()} | E-mail: {$participante->getEmail()}</option>\n";
+			}
 		}
 		
 		return $options;
@@ -45,9 +49,11 @@ class RelatorioDetalhadoServices {
 		$participanteId = (!empty($participanteId)) ? $participanteId : 0;
 		$options = "";
 		
-		foreach($participantes as $participante) {
-			$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
-			$options .= "<option $selected value=\"{$participante->getId()}\">Empresa: {$participante->getEmpresa()} | E-mail: {$participante->getEmail()}</option>\n";
+		if($participantes) {
+			foreach($participantes as $participante) {
+				$selected = ($participante->getId() == $participanteId) ? "selected=\"selected\"" : "";
+				$options .= "<option $selected value=\"{$participante->getId()}\">Empresa: {$participante->getEmpresa()} | E-mail: {$participante->getEmail()}</option>\n";
+			}
 		}
 		
 		return $options;
