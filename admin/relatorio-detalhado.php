@@ -30,7 +30,11 @@
 		<!-- content -->
 		<div id="content">
 			
-			<p class="link"><a href="admin/relatorio-geral.php">Relatório Geral</a> | <a href="actions/logout.action.php">Sair</a></p>
+			<p class="link">
+				<a href="actions/exportDetalheToExcel.action.php" class="excel" title="Exportar para Excel">Excel</a> | 
+				<a href="admin/relatorio-geral.php">Relatório Geral</a> | 
+				<a href="actions/logout.action.php">Sair</a>
+			</p>
 			
 			<h1 id="title-admin">Resultado Detalhado da Pesquisa</h1>
 			
