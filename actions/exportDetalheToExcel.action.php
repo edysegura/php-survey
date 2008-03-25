@@ -19,15 +19,25 @@ header("Expires: 0");
 <table border="1">
 	<thead>
 		<tr style="background:#CCCCCC;">
-			<th>Informações do Participante:</th>
+			<th colspan="2">Informações do Participante:</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td><strong>Nome:</strong> <?php echo $participante->getNome(); ?></td>
-			<td><strong>Telefone:</strong> <?php echo $participante->getTelefone(); ?></td>
-			<td><strong>Empresa:</strong>	<?php echo $participante->getEmpresa(); ?></td>
-			<td><strong>Comentário:</strong>	<?php echo ($participante->getComentario()) ? stripslashes($participante->getComentario()) : "&nbsp;"; ?></td>
+			<td><strong>Nome:</strong></td></td>
+			<td><?php echo $participante->getNome(); ?></td>
+		</tr>
+		<tr>
+			<td><strong>Telefone:</strong></td>
+			<td><?php echo $participante->getTelefone(); ?></td>
+		</tr>
+		<tr>
+			<td><strong>Empresa:</strong></td>
+			<td><?php echo $participante->getEmpresa(); ?></td>
+		</tr>
+		<tr>
+			<td><strong>Comentário:</strong></td>
+			<td><?php echo ($participante->getComentario()) ? stripslashes($participante->getComentario()) : "&nbsp;"; ?></td>
 		</tr>
 	</tbody>
 </table>
