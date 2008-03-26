@@ -31,7 +31,9 @@
 		<div id="content">
 			
 			<p class="link">
-				<a href="actions/exportDetalheToExcel.action.php" class="excel" title="Exportar para Excel">Excel</a> | 
+				<?php if(!empty($id)) {?>
+					<a href="actions/exportDetalheToExcel.action.php?participanteId=<?php echo $id; ?>" class="excel" title="Exportar para Excel">Excel</a> | 
+				<?php } ?>
 				<a href="admin/relatorio-geral.php">Relatório Geral</a> | 
 				<a href="actions/logout.action.php">Sair</a>
 			</p>
