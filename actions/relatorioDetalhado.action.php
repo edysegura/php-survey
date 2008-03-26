@@ -10,12 +10,12 @@ include "../includes/autoload.inc.php";
 $rd = new RelatorioDetalhadoServices();
 $id = "";
 
-if(!empty($_POST["participanteId"]) || 
+if(!empty($_REQUEST["participanteId"]) || 
    !empty($_POST["nomeId"]) || 
 	 !empty($_POST["empresaId"])) {
 	 
-	if(!empty($_POST["participanteId"])) {
-		$id = $participanteId = $_POST["participanteId"];
+	if(!empty($_REQUEST["participanteId"])) {
+		$id = $participanteId = $_REQUEST["participanteId"];
 	}
 	elseif (!empty($_POST["nomeId"])) {
 		$id = $nomeId = $_POST["nomeId"];
