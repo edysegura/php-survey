@@ -18,13 +18,13 @@ header("Expires: 0");
 
 <table border="1">
 	<thead>
-		<tr style="background:#CCCCCC;">
+		<tr style="background:#CCCCCC;" style="color:555;">
 			<th colspan="2">Informações do Participante:</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td><strong>Nome:</strong></td></td>
+			<td><strong>Nome:</strong></td>
 			<td><?php echo $participante->getNome(); ?></td>
 		</tr>
 		<tr>
@@ -42,7 +42,10 @@ header("Expires: 0");
 	</tbody>
 </table>
 
-<table border="1">
+<br />
+<br />
+
+<table border="1" style="color:555;">
 	<thead>
 		<tr style="background:#CCCCCC;">
 			<th colspan="2">Atendimento ao Telefone e Recepção:</th>
@@ -85,7 +88,7 @@ header("Expires: 0");
 <br />
 <br />
 
-<table border="1">
+<table border="1" style="color:555;">
 	<thead>
 		<tr style="background:#CCCCCC;">
 			<th colspan="2">Rodoviário Nacional:</th>
