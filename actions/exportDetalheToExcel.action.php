@@ -18,7 +18,7 @@ header("Expires: 0");
 
 <table border="1">
 	<thead>
-		<tr style="background:#CCCCCC;" style="color:555;">
+		<tr style="background:#CCCCCC;">
 			<th colspan="2">Informações do Participante:</th>
 		</tr>
 	</thead>
@@ -45,7 +45,7 @@ header("Expires: 0");
 <br />
 <br />
 
-<table border="1" style="color:555;">
+<table border="1">
 	<thead>
 		<tr style="background:#CCCCCC;">
 			<th colspan="2">Atendimento ao Telefone e Recepção:</th>
