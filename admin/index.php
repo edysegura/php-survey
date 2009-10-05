@@ -29,7 +29,7 @@
 			<h1 id="title-admin">Acesso Administrativo</h1>
 			
 			<!-- formulário -->
-			<form id="pesquisa" method="post" action="">
+			<form id="pesquisa" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 				<div id="form-content">
 					
 					<div id="login">
